@@ -90,6 +90,11 @@
 
 - [爪哇学习笔记](https://github.com/djsz3y/zhaowa-study-notes)
 
+### HTTP
+
+- [HTTP 升级 2.0.md](/video/HTTP/HTTP升级2.0.md)
+- [Linux 下 Tocat 维护](/video/HTTP/Linux下Tocat维护.md)
+
 ## 友情链接
 
 - [读书视频学习笔记](https://github.com/djsz3y/learning-notes)
