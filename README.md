@@ -92,6 +92,11 @@
 
 ### HTTP
 
+慕课网《大话 HTTP 协议 漫画+图解打造的编程基础课程》
+
+[返回学习笔记目录](/README.md)
+
+- [2-2 TCP/IP](/video/HTTP/TCPIP.md)
 - [HTTP 升级 2.0.md](/video/HTTP/HTTP升级2.0.md)
 - [Linux 下 Tocat 维护](/video/HTTP/Linux下Tocat维护.md)
 

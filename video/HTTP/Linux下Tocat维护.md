@@ -1,5 +1,7 @@
 # Linux 下 Tocat 维护
 
+[返回学习笔记目录](/README.md)
+
 ## Step1：
 
 ### 安装 JDK1.8
