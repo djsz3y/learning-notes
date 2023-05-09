@@ -32,7 +32,7 @@ npm install react-scripts@latest
 
 # Quick Start
 
-## Quick Start
+## Quick Start【done】
 
 You will learn
 
@@ -245,13 +245,126 @@ function MyButton() {
 
 参考链接：[Responding to events](https://react.dev/learn#responding-to-events)
 
-### 8.Updating the screen
+### 8.Updating the screen【done】
 
-### 9.Using Hooks
+用处：组件记录信息并展示
 
-### 10.Sharing data between components
+#### 实现一个功能：点击按钮增加计数器
 
-### 11.Next Steps
+[1]导入 useState
+
+[2]在组件里声明状态变量
+
+[3]useState()里设置初始值
+
+[4]setCount()传递新值
+
+**[5]多次渲染相同组件，各自状态独立**
+
+> App.js
+
+```jsx
+//[1]导入 useState
+import { useState } from 'react'
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>Counters that update separately</h1>
+      {/* [5]多次渲染相同组件，各自状态独立 */}
+      <MyButton />
+      <MyButton />
+    </div>
+  )
+}
+
+function MyButton() {
+  //[2]在组件里声明状态变量
+  //[3]useState()里设置初始值
+  const [count, setCount] = useState(0)
+
+  function handleClick() {
+    // [4]setCount()传递新值
+    setCount(count + 1)
+  }
+
+  return <button onClick={handleClick}>Clicked {count} times</button>
+}
+```
+
+#### 总结成抽象模板：
+
+```jsx
+import { useState } from 'react'
+//导出嵌套组件1的新组件MyApp
+export default function 新组件MyApp() {
+  return (
+    <div>
+      {/* //[5]多次渲染相同组件，各自状态独立 */}
+      <组件1 />
+      <组件1 />
+    </div>
+  )
+}
+function 组件1() {
+  const [something, setSomething] = useState(第一次的初始值)
+
+  function handleEvent(){
+    setSomething(新值)
+  }
+
+  return 组件标签（绑定处理事件handleEvent）
+}
+```
+
+### 9.Using Hooks【done】
+
+use 开头的方法叫挂钩（Hooks）。
+
+- 其他内置挂钩见 [API Built-in React Hooks](https://react.dev/reference/react)。
+
+- 可以结合现有 Hooks 编写自己的 Hooks。
+
+钩子更具限制性：
+
+- 只能组件顶部调用；
+- 条件、循环使用 useState 需要提取新组件。
+
+### 10.Sharing data between components【done】
+
+组件间如何共享数据？
+
+独立状态：前面每个 MyButton 有独立的 count。
+
+共享状态：每个按钮状态向上转移到包含所有按钮的最近组件，就可以共享数据。
+
+通过状态提升（lifting state up）以及给组件传递 props ，改写上述代码为：
+
+```jsx
+import { useState } from 'react'
+export default function MyApp() {
+  const [count, setCount] = useState(0)
+  function handleClick() {
+    setCount(count + 1)
+  }
+  return (
+    <div>
+      <h1>Counters that update together</h1>
+      <MyButton count={count} onClick={handleClick} />
+      <MyButton count={count} onClick={handleClick} />
+    </div>
+  )
+}
+function MyButton({ count, OnClick }) {
+  return <button onClick={OnClick}>Clicked {count} times</button>
+}
+```
+
+### 11.Next Steps【done】
+
+By now, you know the basics of how to write React code!
+
+Check out the Tutorial to put them into practice and build your first mini-app with React.
 
 ## Tutorial: Tic-Tac-Toe
 
