@@ -34,44 +34,48 @@
 
 ### ES6 标准入门
 
-《ES6 标准入门》
+《ES6 标准入门》读书笔记
 
 ### JS 权威 jstdg7
 
-《JavaScript 权威指南（第七版）》The cover of JavaScript: The Definitive Guide
+《JavaScript 权威指南（第七版）》The cover of JavaScript: The Definitive Guide 读书笔记
 
 ![The cover of JavaScript: The Definitive Guide](/imgs/jstdg7.jpg)
 
-### 高程四
+### 《JavaScript 高级程序设计（第 4 版）
 
-《JavaScript 高级程序设计（第 4 版）》
+- [《JavaScript 高级程序设计（第 4 版）》读书笔记](/book/professional-JavaScript-for-web-developers-4th-edition/README.md)
 
 ### You-Dont-Know-JS
 
-《你不知道的 JavaScript》You-Dont-Know-JS
+《你不知道的 JavaScript》You-Dont-Know-JS 读书笔记
 
 <a href="https://leanpub.com/ydkjsy-get-started"><img src="get-started/images/cover.png" width="75"></a>&nbsp;&nbsp;
 <a href="https://leanpub.com/ydkjsy-scope-closures"><img src="scope-closures/images/cover.png" width="75"></a>&nbsp;&nbsp;...
 
+### JavaScript DOM 编程艺术
+
+- [《JavaScript DOM 编程艺术》读书笔记](/book/javascript-dom/README.md)
+
 ### JavaScript 函数式编程指南
 
-《JavaScript 函数式编程指南》
+《JavaScript 函数式编程指南》读书笔记
 
 ### 学习 JavaScript 数据结构与算法
 
-《学习 JavaScript 数据结构与算法》
+《学习 JavaScript 数据结构与算法》读书笔记
 
 ### JavaScript 设计模式与开发实践
 
-《JavaScript 设计模式与开发实践》
+- [《JavaScript 设计模式与开发实践》读书笔记](/book/javascript-design-pattern/README.md)
 
 ### Vue.js 设计与实现
 
-《Vue.js 设计与实现》
+《Vue.js 设计与实现》读书笔记
 
 ### Visual Studio Code 权威指南
 
-《Visual Studio Code 权威指南》
+《Visual Studio Code 权威指南》读书笔记
 
 ## 视频
 
