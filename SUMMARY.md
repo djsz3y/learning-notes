@@ -34,7 +34,7 @@
 
 ### ES6 标准入门
 
-《ES6 标准入门》读书笔记
+- [《ES6 标准入门》读书笔记](/book/es6-standards/README.md)
 
 ### JS 权威 jstdg7
 
