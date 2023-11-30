@@ -17,10 +17,11 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 - [ ] 8.手写简易 jQuery，考虑插件和扩展性
 - [x] 9.手写 call、手写 apply、手写 bind
 - [x] 10.做一个简单的 cache 工具 createCache.js
-- [x] 11.前端异步场景
-- [x] 12.手写：使用 promise 加载一张图片（演示 Promise 串联解决回调地狱）
-- [ ] 13.手写 Promise（Promise A+ 规范）
-- [x] 14.手写 DOM 节点操作（获取节点、attr/property 获取修改属性及其区别）
+- [ ] 11.创建 10 个`<a>`标签，点击弹出序号（2 种）
+- [x] 12.前端异步场景
+- [x] 13.手写：使用 promise 加载一张图片（演示 Promise 串联解决回调地狱）
+- [ ] 14.手写 Promise（Promise A+ 规范）
+- [x] 15.手写 DOM 节点操作（获取节点、attr/property 获取修改属性及其区别）
 
 ## 2.A4 纸手写题
 
