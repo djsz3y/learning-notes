@@ -76,8 +76,8 @@ for (let i = 0; i < document.getElementsByTagName('p').length; i++) {
   // ...
 }
 // 2.DOM查询做缓存（查、存，不再查）（变量存length，避免频繁dom操作）（一定记住，几率大）
-const pList = document.getElementsByTagName('p')
-const length = pList.length
+const pList1 = document.getElementsByTagName('p')
+const length = pList1.length
 for (let i = 0; i < length; i++) {
   // ...
 }
