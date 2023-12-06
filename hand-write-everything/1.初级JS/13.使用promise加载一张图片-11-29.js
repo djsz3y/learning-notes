@@ -1,7 +1,8 @@
-// 使用promise加载一张图片
+// 1.使用promise加载一张图片
 function loadImg(src) {
   const p = new Promise((resolve, reject) => {
     const img = document.createElement('img')
+    // 加载完之后的回调函数
     img.onload = () => {
       resolve(img)
     }
@@ -13,7 +14,7 @@ function loadImg(src) {
   })
   return p
 }
-// 根据url加载图片
+// 2.根据url加载图片
 const url = 'https://...jpg'
 loadImg(url)
   .then((img) => {
@@ -25,7 +26,7 @@ loadImg(url)
   })
   .catch((ex) => console.error(ex))
 
-// 多个图片一起加载
+// 3.多个图片一起加载
 const url1 = '',
   url2 = ''
 loadImg(url1)
@@ -34,7 +35,7 @@ loadImg(url1)
     return img1 // 普通对象
   })
   .then((img1) => {
-    img1.height
+    console.log(img1.height)
     return loadImg(url2) // promise 实例
   })
   .then((img2) => {

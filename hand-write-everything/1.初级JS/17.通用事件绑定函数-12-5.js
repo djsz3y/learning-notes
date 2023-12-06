@@ -42,3 +42,15 @@ bindEvent(div1, 'click', 'a', (event) => {
   event.preventDefault()
   alert(event.target.innerHTML)
 })
+
+{
+  /* <button id="btn1">一个按钮</button>
+
+<div id="div1">
+    <a href="#">a1</a><br>
+    <a href="#">a2</a><br>
+    <a href="#">a3</a><br>
+    <a href="#">a4</a><br>
+    <button>加载更多...</button>
+</div> */
+}
