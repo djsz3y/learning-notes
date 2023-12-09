@@ -6,13 +6,14 @@ function bindEvent(elem, type, selector, fn) {
   if (fn == null) {
     fn = selector
     selector = null
-  }
+  } // 判断普通绑定的最后一个参数放在通用函数的最后一个参数里
   elem.addEventListener(type, (event) => {
     const target = event.target
     if (selector) {
       // 代理绑定
       if (target.matches(selector)) {
-        fn.call(target, event)
+        //匹配符合选择器的代理绑定
+        fn.call(target, event) // 开发者写的绑定函数，设置其this值和event事件参数值。
       }
     } else {
       // 普通绑定
