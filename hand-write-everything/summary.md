@@ -27,25 +27,26 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 - [x] 18.1.手写简易 ajax (手写 XMLHTTPRequest-get&post)
 - [x] 18.2.promise 封装一个 ajax
 - [ ] 19.手写 jQuery 实现 jsonP，CORS-服务器设置 http header
+- [ ] 20.jsonp.html&jsonp.js
 
 ## 2.A4 纸手写题
 
 > （参考《学习计划》中 3.2.6 手写系列的链接）
 
 - [ ] 1.手写 hasPrototypeProperty
-- [ ] 2&3&4.继承之组合继承、原型继承、寄生组合继承
-- [x] 5&6&7.手写 call、手写 apply、手写 bind
-- [x] 8.手写模拟 new
-- [ ] 9.实现 instanceof
-- [x] 10.手写 Promise（实现 Promise.all、实现 Promise.race）
-- [x] 11&12.抖防-节流
-- [x] 13.函数柯里化 curry
-- [ ] 14.判断数据类型
-- [x] 15.手写拷贝：深拷贝 deepClone、浅拷贝 shallowCopy
-- [ ] 16.数组扁平化-flat()
-- [ ] 17.数组响应式
+- [ ] 2.继承之组合继承、原型继承、寄生组合继承
+- [x] 3.手写 call、手写 apply、手写 bind
+- [x] 4.手写模拟 new
+- [ ] 5.实现 instanceof
+- [x] 6.手写 Promise（实现 Promise.all、实现 Promise.race）
+- [x] 7.抖防-节流
+- [x] 8.函数柯里化 curry
+- [x] 9.手写拷贝：深拷贝 deepClone、浅拷贝 shallowCopy
+- [ ] 10.数组扁平化-flat()
+- [ ] 11.数组响应式
+- [ ] 12.判断数据类型
 
-## 3.hand.js
+## 2.2 hand.js
 
 ### 数据结构操作题：
 
@@ -59,3 +60,7 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 - [ ] 对象 =》树
 
 - [ ] url 解析
+
+## 3.vue-hand
+
+- vue 响应式原理（observe.js）
