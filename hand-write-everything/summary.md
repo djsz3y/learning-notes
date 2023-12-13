@@ -24,10 +24,8 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 - [x] 15.手写 DOM 节点操作(4)、结构操作(4)、性能优化(2)
 - [x] 16.手写 BOM（navigator、screen、location、history）
 - [x] 17.手写通用事件绑定/监听函数 bindEvent(elem, type, fn)（知识点：事件绑定/冒泡/代理 瀑布流 优点等）
-- [x] 18.1.手写简易 ajax (手写 XMLHTTPRequest-get&post)
-- [x] 18.2.promise 封装一个 ajax
-- [x] 19.手写 jQuery 实现 jsonP，CORS-服务器设置 http header
-- [x] 20.jsonp.html&jsonp.js
+- [x] 18.手写简易 ajax (手写 XMLHTTPRequest-get&post)；promise 封装一个 ajax
+- [x] 19.跨域解决方案（手写 jQuery 实现 jsonP，CORS-服务器设置 http header，jsonp.html&jsonp.js）
 
 ## 2.A4 纸手写题
 
