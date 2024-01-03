@@ -1,4 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T10:22:38.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="A3jTk-HpKgOQpiAdoqbF" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T10:23:57.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YJbkyIMk7QxpvnWJ1tvM" version="22.1.16" type="github" pages="3">
+  <diagram id="uMMviY4xtw7i1Muk4mrR" name="虚拟dom-vnode">
+    <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="680.5" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-2" value="diff 算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="33.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-3" value="vdom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="213.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rSCCVyqIPdr72y3jFzY4-1" source="rSCCVyqIPdr72y3jFzY4-2" target="rSCCVyqIPdr72y3jFzY4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-5" value="实现 vue 和 React" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="375.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rSCCVyqIPdr72y3jFzY4-1" source="rSCCVyqIPdr72y3jFzY4-3" target="rSCCVyqIPdr72y3jFzY4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-7" value="② 核心&lt;br&gt;关键" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="123.5" y="20" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-8" value="① 的重要基础" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="270.5" y="20" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rSCCVyqIPdr72y3jFzY4-1" source="rSCCVyqIPdr72y3jFzY4-10" target="rSCCVyqIPdr72y3jFzY4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-10" value="③ 热门" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="208.5" y="78" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;direction=north;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="43.5" y="98" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-12" value="使用 vdom&lt;br&gt;不用 DOM 操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="43.5" y="193" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="153.5" y="158" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-14" value="④ DOM 操作耗费性能" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="183.5" y="158" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-15" value="⑤ jQuery 自行控制DOM操作时机，手动调整" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="183.5" y="198" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-16" value="⑥ Vue、React 数据驱动试图，如何有效控制DOM操作？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="183.5" y="238" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-17" value="解决方案-vdom&lt;br&gt;（使用 vdom 好）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="38.5" y="293" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="153.5" y="278" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-19" value="① 有一定复杂度，减少计算次数比较难" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="184.5" y="278" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-20" value="② 把计算转移为 JS 计算（JS执行快）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="460.5" y="278" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rSCCVyqIPdr72y3jFzY4-1" source="rSCCVyqIPdr72y3jFzY4-19" target="rSCCVyqIPdr72y3jFzY4-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393.5" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-22" value="③ vdom 用 JS 模拟 DOM 结构，计算最小变更，操作DOM，避免无意义的DOM操作" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="184.5" y="318" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-23" value="用JS模拟DOM结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="35" y="368" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-24" value="snabbdom 学 vdom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="30" y="458" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-25" value="① vdom库" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="184.5" y="398" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-26" value="② vue参考它实现 vdom 和 diff" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="184.5" y="428" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-27" value="③ vue3 重写 vdom 代码，优化性能；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="185.5" y="458" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-28" value="④ vdom 基本理念不变，考点不变" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="184.5" y="488" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-29" value="⑤ React vdom 具体实现和 vue不同，统一。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="185.5" y="518" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="153.5" y="398" width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-31" value="虚拟 DOM（Virtual DOM）和 diff" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry x="48.5" y="118" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-32" value="1." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry y="118" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-33" value="2." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry y="198" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-34" value="3." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry y="298" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-35" value="4." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry y="368" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rSCCVyqIPdr72y3jFzY4-36" value="5." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontStyle=1" vertex="1" parent="rSCCVyqIPdr72y3jFzY4-1">
+          <mxGeometry y="458" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="c-JXkc4jLdelJpHtnAxU" name="用过虚拟DOM吗？">
+    <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="网络-DNS域名解析" id="i328vzDX0t-E7myoTT63">
     <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
