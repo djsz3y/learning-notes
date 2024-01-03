@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T11:30:01.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qxtSECxRJFqBS0F8y0Vc" version="22.1.16" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-03T11:33:18.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="t9nK6L2LcihlCJm-c6gR" version="22.1.16" type="github" pages="3">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,10 +333,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="网络-DNS域名解析" id="i328vzDX0t-E7myoTT63">
-    <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nvYG0WU0760lXZvVAb2y-71" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="590" width="630" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="gudt5h89fd4J9aagRgqd-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;imageBackground=default;" vertex="1" parent="1">
           <mxGeometry x="510" y="240" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
@@ -427,16 +430,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;谷歌的地址指向了某一个 IP&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="645.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="1130" y="640" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-12" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px; font-size: 12px;&quot;&gt;IP 是某一个镜像/网上互联网的地址&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1441" y="645.5" width="220" height="40" as="geometry" />
+          <mxGeometry x="1420" y="640" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-14" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;强制的 DNS 的转换：把 IP 地址连接过去&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="590.5" width="250" height="40" as="geometry" />
+          <mxGeometry x="1130" y="600" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="590.5" width="20" height="95" as="geometry" />
+          <mxGeometry x="1120" y="600" width="20" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.79;dx=42.35;direction=east;notch=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="603" width="123" height="70" as="geometry" />
@@ -444,7 +447,7 @@
         <mxCell id="nvYG0WU0760lXZvVAb2y-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nvYG0WU0760lXZvVAb2y-47" target="nvYG0WU0760lXZvVAb2y-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nvYG0WU0760lXZvVAb2y-53" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nvYG0WU0760lXZvVAb2y-52">
+        <mxCell id="nvYG0WU0760lXZvVAb2y-53" value="是，查询到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nvYG0WU0760lXZvVAb2y-52">
           <mxGeometry x="0.0505" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -461,7 +464,7 @@
           <mxGeometry x="233" y="810" width="158" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-50" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1100" y="770" width="611" height="140" as="geometry" />
+          <mxGeometry x="1000" y="780" width="611" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-25" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="nvYG0WU0760lXZvVAb2y-50">
           <mxGeometry width="610" height="140" as="geometry" />
