@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T10:40:00.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sf1C02nREFwb9N6MLM90" version="22.1.16" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-03T10:44:01.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5JSyKXjeofnb7gQtAarN" version="22.1.16" type="github" pages="3">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="网络-DNS域名解析" id="i328vzDX0t-E7myoTT63">
-    <mxGraphModel dx="989" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -399,8 +399,18 @@
             <mxPoint x="549.9999999999998" y="638" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvYG0WU0760lXZvVAb2y-8" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;如果找到&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nvYG0WU0760lXZvVAb2y-7">
+        <mxCell id="nvYG0WU0760lXZvVAb2y-8" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;如果找到&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="nvYG0WU0760lXZvVAb2y-7">
           <mxGeometry x="-0.0659" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvYG0WU0760lXZvVAb2y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nvYG0WU0760lXZvVAb2y-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312.0000000000002" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvYG0WU0760lXZvVAb2y-18" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;本地没有域名对应的 IP 地址映射&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="nvYG0WU0760lXZvVAb2y-17">
+          <mxGeometry x="-0.1585" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -411,22 +421,28 @@
           <mxGeometry x="560" y="618" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-10" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;修改了 host 文件&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="800" y="618" width="120" height="40" as="geometry" />
+          <mxGeometry x="1000" y="618" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="nvYG0WU0760lXZvVAb2y-11" target="nvYG0WU0760lXZvVAb2y-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;谷歌的地址指向了某一个 IP&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="940" y="645.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="1140" y="645.5" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-12" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px; font-size: 12px;&quot;&gt;IP 是某一个镜像/网上互联网的地址&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="645.5" width="220" height="40" as="geometry" />
+          <mxGeometry x="1441" y="645.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-14" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;强制的 DNS 的转换：把 IP 地址连接过去&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="940" y="590.5" width="250" height="40" as="geometry" />
+          <mxGeometry x="1140" y="590.5" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvYG0WU0760lXZvVAb2y-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="920" y="590.5" width="20" height="95" as="geometry" />
+          <mxGeometry x="1120" y="590.5" width="20" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="nvYG0WU0760lXZvVAb2y-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.79;dx=42.35;direction=east;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="603" width="123" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvYG0WU0760lXZvVAb2y-19" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;本地的 DNS 服务器（大家本地都有）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="793" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
