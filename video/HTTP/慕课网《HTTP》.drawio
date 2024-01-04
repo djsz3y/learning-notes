@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T10:57:36.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yIFDUtzT9YpayHmMitRP" version="22.1.16" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-04T12:02:39.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="V7XY6Lu3vZ0PujxKv85z" version="22.1.16" type="github" pages="4">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -725,7 +725,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VYZnasjLx7wbvGvZa4qM" name="HTTP-DNS域名解析-总结">
-    <mxGraphModel dx="2261" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3474" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -756,7 +756,7 @@
           <mxGeometry x="10" y="370" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zvGqao6D_GQuodYB6oJj-1" value="先调用IP进行映射（最快）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eji6Wmo5wSgLSeYVuwm3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zvGqao6D_GQuodYB6oJj-4" target="zvGqao6D_GQuodYB6oJj-6">
           <mxGeometry relative="1" as="geometry" />
@@ -765,7 +765,7 @@
           <mxGeometry x="75" y="520" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zvGqao6D_GQuodYB6oJj-5" value="直接返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="652" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zvGqao6D_GQuodYB6oJj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zvGqao6D_GQuodYB6oJj-6" target="zvGqao6D_GQuodYB6oJj-5">
           <mxGeometry relative="1" as="geometry" />
@@ -781,129 +781,32 @@
         <mxCell id="zvGqao6D_GQuodYB6oJj-6" value="有吗？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="642" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Eji6Wmo5wSgLSeYVuwm3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zvGqao6D_GQuodYB6oJj-9" target="Eji6Wmo5wSgLSeYVuwm3-21">
+        <mxCell id="7izngqSeNO_znju5-4kO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zvGqao6D_GQuodYB6oJj-9" target="7izngqSeNO_znju5-4kO-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zvGqao6D_GQuodYB6oJj-9" value="6.host 与本地 DNS 解析缓存都没有相应的网址映射关系&lt;br&gt;（本地没有域名对应的 IP 地址映射），&lt;br&gt;就要求助于本地的 DNS 服务器。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-20" y="800" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;本地 DNS 服务是有限的：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="550" y="1553" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=50;indent=5;" vertex="1" parent="1">
-          <mxGeometry x="780" y="360" width="610" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;谷歌的地址指向了某一个 IP&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="921" y="370" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px; font-size: 12px;&quot;&gt;IP 是某一个镜像/网上互联网的地址&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1161" y="370" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="9KRNuu6LmAjhkrIvApeZ-2" target="9KRNuu6LmAjhkrIvApeZ-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-5" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;强制的 DNS 的转换：把 IP 地址连接过去&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="921" y="410" width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="910" y="370" width="20" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-7" value="host 文件" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="840" y="375" width="60" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="9KRNuu6LmAjhkrIvApeZ-8" value="修改了：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="780" y="395" width="70" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3MGS4UYgBwBkBtuu1W3--19" value="正常进行 DNS 域名解析时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="475" width="160" height="30" as="geometry" />
+          <mxGeometry x="-340" y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4dc2MZBKlkoGzvyW4q3F-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="240" width="20" height="500" as="geometry" />
+          <mxGeometry x="-120" y="230" width="20" height="290" as="geometry" />
         </mxCell>
         <mxCell id="4dc2MZBKlkoGzvyW4q3F-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="800" width="20" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="4dc2MZBKlkoGzvyW4q3F-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dc2MZBKlkoGzvyW4q3F-3" target="4dc2MZBKlkoGzvyW4q3F-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4dc2MZBKlkoGzvyW4q3F-3" value="修改了 host 文件后，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="770" y="300" width="140" height="30" as="geometry" />
+          <mxGeometry x="-120" y="520" width="20" height="280" as="geometry" />
         </mxCell>
         <mxCell id="4dc2MZBKlkoGzvyW4q3F-4" value="4.就把（谷歌的）地址指向某个 IP（某个镜像/互联网地址）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="921" y="300" width="340" height="30" as="geometry" />
+          <mxGeometry x="922.4" y="315" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4dc2MZBKlkoGzvyW4q3F-5" value="5.这是做一个强制的 DNS 的转换，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="815" y="500" width="210" height="30" as="geometry" />
+        <mxCell id="4dc2MZBKlkoGzvyW4q3F-5" value="5.强制的 DNS 的转换，能把 IP 地址连接过去（因为 DNS 服务的解析先来读的就是系统的 host 文件。）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="922.4" y="345" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4dc2MZBKlkoGzvyW4q3F-6" value="让我们能够把这个 IP 地址连接过去（因为 DNS 服务的解析先来读的就是系统的 host 文件。）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="490" width="520" height="30" as="geometry" />
+        <mxCell id="7izngqSeNO_znju5-4kO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4dc2MZBKlkoGzvyW4q3F-7" target="9KRNuu6LmAjhkrIvApeZ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4dc2MZBKlkoGzvyW4q3F-7" value="3.1 本地电脑将经常使用的域名 &amp;amp; 响应的 IP 地址：建立一个映射关系，保存到系统文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="180" width="480" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0YMOXYQLCXF2LMcmoK7f-1" value="更高级的 DNS 服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="1048.4" y="1433" width="42.599999999999994" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="0YMOXYQLCXF2LMcmoK7f-2" value="根 DNS 服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="1048.4" y="1633" width="42.599999999999994" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="0YMOXYQLCXF2LMcmoK7f-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1433" width="20" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="0YMOXYQLCXF2LMcmoK7f-4" value="。。。。。。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1019.7" y="1565" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--15" value="本地的 DNS 服务器&lt;br&gt;（大家本地都有）" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
-          <mxGeometry x="623.7" y="1303" width="42.599999999999994" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="760" y="1270" width="611" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--2" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry width="610" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--3" value="本地的 DNS 服务器&lt;br&gt;（大家本地都有）" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry x="290" y="27.200000000000045" width="42.599999999999994" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--4" value="系统" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry x="27.600000000000023" y="23" width="62.400000000000006" height="62.400000000000006" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3MGS4UYgBwBkBtuu1W3--16" source="3MGS4UYgBwBkBtuu1W3--3" target="3MGS4UYgBwBkBtuu1W3--4">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="230" y="160" as="sourcePoint" />
-            <mxPoint x="260" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--6" value="（右）响应请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3MGS4UYgBwBkBtuu1W3--5">
-          <mxGeometry x="0.0832" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.321;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3MGS4UYgBwBkBtuu1W3--16" source="3MGS4UYgBwBkBtuu1W3--4" target="3MGS4UYgBwBkBtuu1W3--3">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="100" y="10" as="sourcePoint" />
-            <mxPoint x="260" y="10" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--8" value="（左向右）发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3MGS4UYgBwBkBtuu1W3--7">
-          <mxGeometry x="-0.0521" y="1" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry x="360" y="29.200000000000045" width="20" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--10" value="域名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry x="155" y="10" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--11" value="&lt;ul&gt;&lt;li&gt;查询域名对应的 IP 地址&lt;br&gt;&lt;/li&gt;&lt;li&gt;找到 IP 地址，并将结果返回给浏览器&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry x="360" y="23" width="251" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--12" value="IP 地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="3MGS4UYgBwBkBtuu1W3--16">
-          <mxGeometry x="150" y="70" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3MGS4UYgBwBkBtuu1W3--17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1270" width="20" height="120" as="geometry" />
+          <mxGeometry x="560" y="220" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Eji6Wmo5wSgLSeYVuwm3-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px;&quot;&gt;把 DNS 服务器的服务做好&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1766" y="642" width="230" height="40" as="geometry" />
@@ -940,14 +843,167 @@
         <mxCell id="Eji6Wmo5wSgLSeYVuwm3-11" value="&lt;div style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;host 文件、&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;本地 DNS、&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;更高级的 DNS 服务器、&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;根 DNS 服务器&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
           <mxGeometry x="1656" y="462" width="42.599999999999994" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Eji6Wmo5wSgLSeYVuwm3-13" value="本地 DNS 服务器收到查询域名，本地配置区域资源里存在，返回给客户机；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1079" width="430" height="30" as="geometry" />
+        <mxCell id="7izngqSeNO_znju5-4kO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eji6Wmo5wSgLSeYVuwm3-21" target="zvGqao6D_GQuodYB6oJj-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Eji6Wmo5wSgLSeYVuwm3-15" value="11.如果本地 DNS 服务器、本地区域文件的缓存解析都失效的话，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="482.29999999999995" y="1139" width="370" height="30" as="geometry" />
+        <mxCell id="Eji6Wmo5wSgLSeYVuwm3-21" value="TCP/IP 参数里&lt;br&gt;设置首选的 DNS 服务器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;（配置网络时，会配置首选的 DNS 服务器，&lt;br&gt;常用：8.8.8.8/114.114.114.114）；&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="795" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Eji6Wmo5wSgLSeYVuwm3-21" value="TCP/IP 参数里设置首选的 DNS 服务器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;（配置网络时，会配置首选的 DNS 服务器，常用：8.8.8.8/114.114.114.114）；&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="960" width="440" height="41" as="geometry" />
+        <mxCell id="7izngqSeNO_znju5-4kO-1" value="&lt;div style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;本地的 DNS 服务会&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;一层一层的向上一级的 DNS 服务器发送请求，&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;直到 DNS 根服务器&lt;/div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;，&lt;/span&gt;&lt;/font&gt;直到找到它的主机 IP；" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1560" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7izngqSeNO_znju5-4kO-2" target="7izngqSeNO_znju5-4kO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-4" value="转发模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7izngqSeNO_znju5-4kO-3">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7izngqSeNO_znju5-4kO-2" target="7izngqSeNO_znju5-4kO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-7" value="非转发模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7izngqSeNO_znju5-4kO-6">
+          <mxGeometry x="-0.0778" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-2" value="是否设置转发？&lt;br&gt;（根据本地DNS服务器设置是否转发，进行查询）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1320" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-5" value="本地 DNS 直接把请求发到 13 台根 DNS，一台一台去找。" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1330" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7izngqSeNO_znju5-4kO-9" target="7izngqSeNO_znju5-4kO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-13" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7izngqSeNO_znju5-4kO-12">
+          <mxGeometry x="-0.09" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7izngqSeNO_znju5-4kO-9" target="7izngqSeNO_znju5-4kO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-15" value="11.如果本地 DNS 服务器-本地区域文件的缓存解析都失效的话，" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7izngqSeNO_znju5-4kO-14">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-9" value="本地 DNS 服务器收到查询域名，本地配置区域资源里存在？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1080" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-11" value="返回给客户机" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-17" value="host文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-210" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-18" value="本地 DNS 解析缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-255" y="645" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-21" value="本地 DNS 服务器的本地配置区域资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1105" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1080" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1320" width="20" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-25" value="转发 &amp;amp; 非转发 模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="1475" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="800" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-30" value="本地 DNS 服务器&lt;br&gt;——首选DNS服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="880" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 24px;&quot;&gt;本地 DNS 服务是有限的：&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="1465" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0YMOXYQLCXF2LMcmoK7f-1" value="更高级的 DNS 服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="1199.7" y="1320" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0YMOXYQLCXF2LMcmoK7f-2" value="根 DNS 服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="1199.7" y="1583" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="0YMOXYQLCXF2LMcmoK7f-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1320" width="20" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0YMOXYQLCXF2LMcmoK7f-4" value="。。。。。。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="1480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-33" value="8.系统向本地的 DNS 服务器发送请求，去查询域名对应的 IP 地址；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="922.6" y="1030" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-34" value="9.本地的 DNS 服务器响应请求，找到 IP 地址，并将结果返回给浏览器。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="922.6" y="1200" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--15" value="本地的 DNS 服务器&lt;br&gt;（大家本地都有）" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="763.7" y="1103" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="872.6" y="1030" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="922.6" y="1060" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--2" value="" style="html=1;whiteSpace=wrap;container=0;" vertex="1" parent="7izngqSeNO_znju5-4kO-35">
+          <mxGeometry width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--3" value="本地的 DNS 服务器" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;container=0;" vertex="1" parent="7izngqSeNO_znju5-4kO-35">
+          <mxGeometry x="276.29999999999995" y="37.200000000000045" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--4" value="系统" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;container=0;" vertex="1" parent="7izngqSeNO_znju5-4kO-35">
+          <mxGeometry x="13.899999999999977" y="33" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7izngqSeNO_znju5-4kO-35" source="3MGS4UYgBwBkBtuu1W3--3" target="3MGS4UYgBwBkBtuu1W3--4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="216.29999999999995" y="170" as="sourcePoint" />
+            <mxPoint x="246.29999999999995" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--6" value="响应请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="3MGS4UYgBwBkBtuu1W3--5">
+          <mxGeometry x="0.0832" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.321;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7izngqSeNO_znju5-4kO-35" source="3MGS4UYgBwBkBtuu1W3--4" target="3MGS4UYgBwBkBtuu1W3--3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="86.29999999999995" y="20" as="sourcePoint" />
+            <mxPoint x="246.29999999999995" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--8" value="发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="3MGS4UYgBwBkBtuu1W3--7">
+          <mxGeometry x="-0.0521" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--10" value="查询域名对应的 IP 地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;container=0;" vertex="1" parent="7izngqSeNO_znju5-4kO-35">
+          <mxGeometry x="105" y="3" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3MGS4UYgBwBkBtuu1W3--12" value="找到 IP 地址，并将结果返回给浏览器。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;container=0;" vertex="1" parent="7izngqSeNO_znju5-4kO-35">
+          <mxGeometry x="65" y="110" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="720" y="300" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9KRNuu6LmAjhkrIvApeZ-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=50;indent=5;" vertex="1" parent="7izngqSeNO_znju5-4kO-37">
+          <mxGeometry x="5" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9KRNuu6LmAjhkrIvApeZ-7" value="host 文件" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7izngqSeNO_znju5-4kO-37">
+          <mxGeometry x="55" y="10" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9KRNuu6LmAjhkrIvApeZ-8" value="修改了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7izngqSeNO_znju5-4kO-37">
+          <mxGeometry y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4dc2MZBKlkoGzvyW4q3F-3" value="后，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7izngqSeNO_znju5-4kO-37">
+          <mxGeometry x="115" y="30" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7izngqSeNO_znju5-4kO-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="910" y="315" width="20" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
