@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T12:37:14.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NvRHowbhH7YUo9tSN7eu" version="22.1.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-07T12:39:06.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-_WFB5aHmPfBtjuhxDqO" version="22.1.17" type="github" pages="5">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1013,12 +1013,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e3_4BHLXcU2pWjF_lc3m" name="6-4 HTTPS 对性能的影响">
-    <mxGraphModel dx="5736" dy="2988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="E3QskbzwqypgzUiJ9__b-115" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="80" width="960" height="290" as="geometry" />
+          <mxGeometry x="40" y="120" width="960" height="290" as="geometry" />
         </mxCell>
         <mxCell id="E3QskbzwqypgzUiJ9__b-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E3QskbzwqypgzUiJ9__b-115">
           <mxGeometry width="960" height="290" as="geometry" />
@@ -1184,11 +1184,11 @@
         <mxCell id="E3QskbzwqypgzUiJ9__b-109" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#82B366;" vertex="1" parent="E3QskbzwqypgzUiJ9__b-115">
           <mxGeometry x="460" y="85" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E3QskbzwqypgzUiJ9__b-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;HTTP 和 HTTPS 在网络访问和往返时延上的区别&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;—— 忽略主域名的 DNS 解析（都需要）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="10" width="550" height="60" as="geometry" />
+        <mxCell id="E3QskbzwqypgzUiJ9__b-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;HTTP 和 HTTPS 在网络访问和往返时延上的区别&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;—— 忽略主域名的 DNS 解析（都需要）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#FF0000;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="550" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E3QskbzwqypgzUiJ9__b-184" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="390" width="3520" height="1060" as="geometry" />
+        <mxCell id="E3QskbzwqypgzUiJ9__b-184" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="440" width="3520" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="E3QskbzwqypgzUiJ9__b-114" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E3QskbzwqypgzUiJ9__b-184">
           <mxGeometry width="900" height="500" as="geometry" />
