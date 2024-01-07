@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T12:17:00.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="of3gqoPwkIBBgwTG5LQL" version="22.1.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-07T12:18:17.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9AI_-eG3AWlLkO6jLwVr" version="22.1.17" type="github" pages="5">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1013,12 +1013,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e3_4BHLXcU2pWjF_lc3m" name="6-4 HTTPS 对性能的影响">
-    <mxGraphModel dx="3437" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4393" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="E3QskbzwqypgzUiJ9__b-114" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-929" y="1120" width="1230" height="520" as="geometry" />
+          <mxGeometry x="20" y="400" width="820" height="490" as="geometry" />
         </mxCell>
         <mxCell id="E3QskbzwqypgzUiJ9__b-46" value="syn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="181" y="460" width="80" height="20" as="geometry" />
