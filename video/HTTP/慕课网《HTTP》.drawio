@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T12:34:58.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Z18TL4cSwul6-xSenkvy" version="22.1.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-07T12:35:32.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZCJxrSYD42IZjYZ44HIL" version="22.1.17" type="github" pages="5">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1013,7 +1013,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e3_4BHLXcU2pWjF_lc3m" name="6-4 HTTPS 对性能的影响">
-    <mxGraphModel dx="2074" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4014" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1525,7 +1525,7 @@
         <mxCell id="E3QskbzwqypgzUiJ9__b-180" value="6." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="787" y="810" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E3QskbzwqypgzUiJ9__b-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.232;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E3QskbzwqypgzUiJ9__b-180" target="E3QskbzwqypgzUiJ9__b-178">
+        <mxCell id="E3QskbzwqypgzUiJ9__b-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.215;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E3QskbzwqypgzUiJ9__b-180" target="E3QskbzwqypgzUiJ9__b-178">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
