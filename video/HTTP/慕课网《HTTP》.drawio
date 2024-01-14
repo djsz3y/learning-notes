@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T09:08:23.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3JViJkU-48I4glgrW5SX" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-14T09:34:35.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5vskjvxwE3igeF2SeSqy" version="22.1.18" type="github" pages="6">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1628,6 +1628,130 @@
         </mxCell>
         <mxCell id="HJZfXHsSB8uMvftpIcYS-31" value="因为 HTTP 协议的传输完全是以明文的方式，不做任何加密，相当于在网络上裸奔。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
           <mxGeometry x="360" y="200" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-35" value="这会导致什么问题？&lt;br&gt;中间人攻击" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="655" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-36" value="HTTPS到底为什么比HTTP安全？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-38" target="HJZfXHsSB8uMvftpIcYS-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-38" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-39" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="710" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-42" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="705" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-43" value="发请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-44" value="由于传输信息是明文，这个信息有可能被某个中间人恶意拦截，甚至篡改，这种行为就叫做中间人攻击。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="660" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-45" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-47" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="850" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-48" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="850" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-52" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="900" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-53" value="中间人攻击" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="960" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-47" target="HJZfXHsSB8uMvftpIcYS-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1010" as="sourcePoint" />
+            <mxPoint x="330" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-59" value="Text1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-55">
+          <mxGeometry x="-0.0619" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-53" target="HJZfXHsSB8uMvftpIcYS-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1000" as="sourcePoint" />
+            <mxPoint x="570" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-60" value="Text2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-57">
+          <mxGeometry x="-0.034" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-64" value="解决办法：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1169" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-65" value="4⃣️别担心，我们可以对明文进行加密！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1130" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-66" value="5⃣️先普及一个概念——加密算法（2种）：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1209.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-68" target="HJZfXHsSB8uMvftpIcYS-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-68" value="非对称加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-69" target="HJZfXHsSB8uMvftpIcYS-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-69" value="对称加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1169" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-71" value="就像图里展示的一样，中间人通过截获请求的数据包，不但可以看还能够篡改，中间人改成了“小萌，我讨厌你！”，一下就搞黄了小风的表白。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1040" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-72" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1169" width="20" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-73" value="也叫做密钥加密：&lt;br&gt;就是指加密和解密使用的都是一个相同的密钥；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1164" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-76" value="也叫公钥加密，&lt;br&gt;加密和解密使用了不同的密钥，&lt;br&gt;比如说：谍战片、二次世界大战，抗日里的加密电报，世界大战里的各种沟通方式，&lt;br&gt;其实都用到了一些加密的方程。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1230" width="470" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-78" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1130" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-87" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1360" width="770" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-79" value="5⃣️表白信息怎么加密？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry y="40" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-80" value="1小风和小萌可以事先约定好一种加密方式，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="160" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-81" value="2并且约定好一种随机生成的密钥，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="160" y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-82" value="3这个密钥，小萌告诉小风，后续的通信里，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="160" y="80" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-83" value="3.1信息的发送方，都使用密钥对着信息加密，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="440" y="65" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-84" value="3.2而信息的接收方同样使用同一个密钥对信息进行解密，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="440" y="95" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-85" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="420" y="70" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-86" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
+          <mxGeometry x="140" width="20" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
