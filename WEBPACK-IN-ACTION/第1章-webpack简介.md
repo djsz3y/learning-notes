@@ -1,5 +1,18 @@
 # 1.是什么
 
+## 1.3 安装
+
+新建一个工程目录，命令行进入该目录：
+
+```bash
+npm init # 执行npm初始化命令，输入项目基本信息后，生成package.json。
+npm install webpack webpack-cli --save-dev # 安装必须的 核心模块 webpack 和 命令行工具 webpack-cli。
+npx webpack -v
+npx webpack-cli -v # 显示各自版本号，安装成功。
+```
+
+## 1.4
+
 # 2.意义
 
 # 3.安装
@@ -84,14 +97,14 @@ webpack-dev-server not installed
 ### 4.1.1 创建文件`index.js、add-content.js、index.html`
 
 ```javascript
-import addContent from "./add-content.js";
-document.write("My first Webpack app.<br />");
-addContent();
+import addContent from './add-content.js'
+document.write('My first Webpack app.<br />')
+addContent()
 ```
 
 ```javascript
 export default function () {
-  document.write("Hello world!");
+  document.write('Hello world!')
 }
 ```
 
