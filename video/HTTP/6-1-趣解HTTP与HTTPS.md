@@ -1,5 +1,7 @@
 # 6-1-趣解 HTTP 与 HTTPS
 
+<img src="./imgs/6-1-趣解HTTP与HTTPS.png" />
+
 ## HTTP 静相依--安全的 HTTPS
 
 ## 什么是 HTTPS，它为什么安全？
