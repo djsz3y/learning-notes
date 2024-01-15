@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T11:11:32.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2tBR8hyW2prW0qMKa1zp" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:45:20.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-GI0jbCv71-XY1lC6iSc" version="22.1.18" type="github" pages="6">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
-    <mxGraphModel dx="1674" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1535,691 +1535,1000 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6M13XiAM2dJnbIe9lccN" name="6-1-趣解HTTP与HTTPS">
-    <mxGraphModel dx="2049" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-1" value="安全的HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-1" value="安全的HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-5" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="60" y="120" width="220" height="70" as="geometry" />
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-5" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="220" y="120" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-2" value="1什么是HTTPS，它为什么安全？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-5">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-2" value="1什么是HTTPS，它为什么安全？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-5" vertex="1">
           <mxGeometry x="20" y="40" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-3" value="比http安全" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-5">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-3" value="比http安全" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-5" vertex="1">
           <mxGeometry x="20" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-5">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="HJZfXHsSB8uMvftpIcYS-5" vertex="1">
           <mxGeometry width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-6" target="HJZfXHsSB8uMvftpIcYS-7">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HJZfXHsSB8uMvftpIcYS-6" target="HJZfXHsSB8uMvftpIcYS-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-6" value="开发人员小白的老板，&lt;br&gt;要把全站都变为 https。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-6" value="开发人员小白的老板，&lt;br&gt;要把全站都变为 https。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="210" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-7" value="HTTP 和 HTTPS可以算是两种不同的网络传输协议，&lt;br&gt;虽然就差一个字母，&lt;br&gt;但是本质却大不相同，千万不能掉以轻心。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-7" value="HTTP 和 HTTPS可以算是两种不同的网络传输协议，&lt;br&gt;虽然就差一个字母，&lt;br&gt;但是本质却大不相同，千万不能掉以轻心。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="200" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-9" value="任务：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-9" value="任务：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="215" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-34" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="280" width="940" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-10" value="回顾 HTTP 协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry y="105" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-26" value="" style="group" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry x="160" width="160" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-11" value="HTTP 与 HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="25" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry y="40" width="160" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-13" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="70" y="50" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-15" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="70" y="100" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-26" source="HJZfXHsSB8uMvftpIcYS-13" target="HJZfXHsSB8uMvftpIcYS-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-17" value="IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="70" y="150" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-26" source="HJZfXHsSB8uMvftpIcYS-15" target="HJZfXHsSB8uMvftpIcYS-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-19" value="网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="70" y="200" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-26" source="HJZfXHsSB8uMvftpIcYS-17" target="HJZfXHsSB8uMvftpIcYS-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-21" value="应用层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="10" y="50" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-22" value="传输层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="10" y="100" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-23" value="网络层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="10" y="150" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-25" value="链路层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-26">
-          <mxGeometry x="10" y="200" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry x="110" width="20" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-28" value="HTTP 协议，就是超文本传输协议，位于 TCP/IP 四层模型中的应用层，就是现在展示的最上面的这一层；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry x="360" y="50" width="580" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-29" value="HTTP 协议通过请求响应的方式，在客户端和服务端之间进行通信。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry x="360" y="100" width="380" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-30" value="但 HTTP 有一个致命的缺点——不够安全。怎么不够安全呢？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry x="360" y="150" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-31" value="因为 HTTP 协议的传输完全是以明文的方式，不做任何加密，相当于在网络上裸奔。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-34">
-          <mxGeometry x="360" y="200" width="470" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-35" value="这会导致什么问题？&lt;br&gt;中间人攻击" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-35" value="这会导致什么问题？&lt;br&gt;中间人攻击" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="860" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-36" value="HTTPS到底为什么比HTTP安全？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-36" value="HTTPS到底为什么比HTTP安全？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="610" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-38" target="HJZfXHsSB8uMvftpIcYS-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-38" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="710" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-39" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="710" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-42" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="395" y="705" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-43" value="发请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="690" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-44" value="由于传输信息是明文，这个信息有可能被某个中间人恶意拦截，甚至篡改，这种行为就叫做中间人攻击。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="725" width="580" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-45" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="770" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-47" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="850" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-48" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="850" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-53" value="中间人攻击" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="960" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-47" target="HJZfXHsSB8uMvftpIcYS-53">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="1010" as="sourcePoint" />
-            <mxPoint x="330" y="960" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-59" value="Text1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-55">
-          <mxGeometry x="-0.0619" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-53" target="HJZfXHsSB8uMvftpIcYS-48">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="1000" as="sourcePoint" />
-            <mxPoint x="570" y="950" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-60" value="Text2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-57">
-          <mxGeometry x="-0.034" y="-2" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-64" value="解决办法：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-64" value="解决办法：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="1169" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-65" value="4⃣️别担心，我们可以对明文进行加密！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1130" width="230" height="30" as="geometry" />
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-123" value="七、这样做是否绝对安全了呢？&lt;br&gt;并不是。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2240" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-66" value="5⃣️先普及一个概念——加密算法（2种）：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1209.5" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-68" target="HJZfXHsSB8uMvftpIcYS-76">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-68" value="非对称加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1250" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJZfXHsSB8uMvftpIcYS-69" target="HJZfXHsSB8uMvftpIcYS-73">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-69" value="对称加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1169" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-71" value="就像图里展示的一样，中间人通过截获请求的数据包，不但可以看还能够篡改，中间人改成了“小萌，我讨厌你！”，一下就搞黄了小风的表白。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1040" width="780" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-72" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1169" width="20" height="111" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-73" value="也叫做密钥加密：&lt;br&gt;就是指加密和解密使用的都是一个相同的密钥；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1164" width="280" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-76" value="也叫公钥加密，&lt;br&gt;加密和解密使用了不同的密钥，&lt;br&gt;比如说：谍战片、二次世界大战，抗日里的加密电报，世界大战里的各种沟通方式，&lt;br&gt;其实都用到了一些加密的方程。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1230" width="470" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-78" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1130" width="20" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-87" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="1480" width="770" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-79" value="5⃣️表白信息怎么加密？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry y="40" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-80" value="1小风和小萌可以事先约定好一种加密方式，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="160" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-81" value="2并且约定好一种随机生成的密钥，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="160" y="40" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-82" value="3这个密钥，小萌告诉小风，后续的通信里，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="160" y="80" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-83" value="3.1信息的发送方，都使用密钥对着信息加密，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="440" y="65" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-84" value="3.2而信息的接收方同样使用同一个密钥对信息进行解密，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="440" y="95" width="330" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-85" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="420" y="70" width="20" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-86" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-87">
-          <mxGeometry x="140" width="20" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-123" value="7⃣️这样做是否绝对安全了呢？&lt;br&gt;并不是。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="2240" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-155" value="8⃣️怎么办？&lt;br&gt;（解决办法）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-155" value="八、怎么办？&lt;br&gt;（解决办法）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="2460" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-156" value="1我们可以使用刚刚提到的非对称加密，为密钥的传输做一层额外的捕获：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="2440" width="410" height="30" as="geometry" />
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-160" value="九、所以我们&lt;b&gt;具体&lt;/b&gt;的&lt;b&gt;操作方式&lt;/b&gt;，&lt;br&gt;就变成了这个样子：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2960" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-157" value="2非对称加密的一组密钥中，包含一个公钥和一个私钥，明文既可以用公钥加密，用私钥解密，也可以用私钥加密，用公钥解密；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="2490" width="700" height="30" as="geometry" />
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-204" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="220" y="2720" width="1530" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-159" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="180" y="2440" width="20" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-160" value="9⃣️所以我们&lt;b&gt;具体&lt;/b&gt;的&lt;b&gt;操作方式&lt;/b&gt;，&lt;br&gt;就变成了这个样子：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="2960" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-182" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="1680" width="1080" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-52" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="350" y="120" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-92" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="200" y="12" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-93" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="520" y="12" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-182" source="HJZfXHsSB8uMvftpIcYS-92" target="HJZfXHsSB8uMvftpIcYS-93">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="52" as="sourcePoint" />
-            <mxPoint x="410" y="2" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-182" source="HJZfXHsSB8uMvftpIcYS-93" target="HJZfXHsSB8uMvftpIcYS-92">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="125" as="sourcePoint" />
-            <mxPoint x="550" y="122" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-96" value="小萌，我们聊天吧！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="315" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-98" value="好啊，我们用AES加密，密码是xxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="275" y="60" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-99" value="6⃣️就像这样，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry y="130" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-100" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="200" y="212" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-101" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="520" y="212" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-102" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-182" source="HJZfXHsSB8uMvftpIcYS-100" target="HJZfXHsSB8uMvftpIcYS-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="252" as="sourcePoint" />
-            <mxPoint x="410" y="202" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-103" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-182" source="HJZfXHsSB8uMvftpIcYS-101" target="HJZfXHsSB8uMvftpIcYS-100">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="325" as="sourcePoint" />
-            <mxPoint x="550" y="322" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-104" value="XX**@$$%$###$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="320" y="200" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-105" value="**&amp;amp;&amp;amp;#￥%*##@" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="325" y="260" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-107" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="480" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-108" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="480" y="50" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-109" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="480" y="110" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-110" value="⑦" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="480" y="200" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-111" value="⑧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="480" y="250" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-112" value="4小风先发送聊天请求，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="610" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-113" value="5小萌直接回复给小风一个密钥，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="610" y="50" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-114" value="6小风后边的信息和表白都通过这个密钥来加密之后再来发送，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="610" y="110" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-115" value="7后边的信息都变成了这个样子：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="610" y="200" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-116" value="8这样如果不知道密钥，即使获取到了信息，拦截到了信息，也没有办法解析和篡改。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="610" y="250" width="470" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-119" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="590" y="200" width="20" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-120" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-182">
-          <mxGeometry x="140" width="20" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-198" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="180" y="690" width="20" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-204" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180" y="2720" width="1530" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-197" value="" style="group" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-204">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-197" value="" style="group" parent="HJZfXHsSB8uMvftpIcYS-204" vertex="1" connectable="0">
           <mxGeometry x="30" width="1500" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-126" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-126" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="540" y="120" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-133" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-133" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="390" y="12" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-134" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-134" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="710" y="12" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-135" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-133" target="HJZfXHsSB8uMvftpIcYS-134">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-135" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-133" target="HJZfXHsSB8uMvftpIcYS-134" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="52" as="sourcePoint" />
             <mxPoint x="600" y="2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-136" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-134" target="HJZfXHsSB8uMvftpIcYS-133">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-136" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-134" target="HJZfXHsSB8uMvftpIcYS-133" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="125" as="sourcePoint" />
             <mxPoint x="740" y="122" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-137" value="1）小萌，我们聊天吧！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-137" value="1）小萌，我们聊天吧！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="495" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-138" value="2）公钥是KEY1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-138" value="2）公钥是KEY1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="515" y="60" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-143" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-143" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="670" y="50" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-161" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-161" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="389" y="252" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-162" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-162" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="709" y="252" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-163" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-161" target="HJZfXHsSB8uMvftpIcYS-162">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-163" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-161" target="HJZfXHsSB8uMvftpIcYS-162" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="549" y="292" as="sourcePoint" />
             <mxPoint x="599" y="242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-164" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-162" target="HJZfXHsSB8uMvftpIcYS-161">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-164" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-162" target="HJZfXHsSB8uMvftpIcYS-161" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="439" y="365" as="sourcePoint" />
             <mxPoint x="739" y="362" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-165" value="2）VA3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-165" value="2）VA3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="539" y="240" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-167" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-167" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="669" y="240" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-168" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-168" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="669" y="290" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-169" value="1）小风：将准备进行对称加密的KEY2，&lt;br/&gt;用公钥KEY1加密，加密结果为VA3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-169" value="1）小风：将准备进行对称加密的KEY2，&lt;br/&gt;用公钥KEY1加密，加密结果为VA3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="290" y="200" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-170" value="3）小萌：通过私钥解密，获得KEY2，&lt;br/&gt;接下来和上次一样用KEY2加密聊天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-170" value="3）小萌：通过私钥解密，获得KEY2，&lt;br/&gt;接下来和上次一样用KEY2加密聊天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="614" y="200" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-171" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-171" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="390" y="452" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-172" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-172" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="710" y="452" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-173" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-171" target="HJZfXHsSB8uMvftpIcYS-172">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-173" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-171" target="HJZfXHsSB8uMvftpIcYS-172" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="492" as="sourcePoint" />
             <mxPoint x="600" y="442" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-174" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-172" target="HJZfXHsSB8uMvftpIcYS-171">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-174" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="HJZfXHsSB8uMvftpIcYS-197" source="HJZfXHsSB8uMvftpIcYS-172" target="HJZfXHsSB8uMvftpIcYS-171" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="565" as="sourcePoint" />
             <mxPoint x="740" y="562" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-175" value="XX**@$$%$###$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-175" value="XX**@$$%$###$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="510" y="440" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-181" value="**&amp;amp;&amp;amp;#￥%*##@" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-181" value="**&amp;amp;&amp;amp;#￥%*##@" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="515" y="490" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-185" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-185" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="750" y="467" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-186" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-186" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="540" y="360" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-187" value="1小风和小萌建立通信的时候，小萌首先把自己的公钥 KEY1 发送给小风，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-187" value="1小风和小萌建立通信的时候，小萌首先把自己的公钥 KEY1 发送给小风，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="870" y="50" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-191" value="4接下来小萌就可以用自己的非对称加密的私钥来解开公钥 KEY1 的加密，获得了 KEY2 的内容；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-191" value="4接下来小萌就可以用自己的非对称加密的私钥来解开公钥 KEY1 的加密，获得了 KEY2 的内容；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="870" y="240" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-192" value="5从此以后，两个人就可以用 KEY2 进行对称加密通信；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-192" value="5从此以后，两个人就可以用 KEY2 进行对称加密通信；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="870" y="290" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-193" value="6所以，在这个通信过程中，即使中间人一开始就截获了公钥 KEY1，由于不知道私钥是什么，也没有办法去解密；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-193" value="6所以，在这个通信过程中，即使中间人一开始就截获了公钥 KEY1，由于不知道私钥是什么，也没有办法去解密；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1">
           <mxGeometry x="870" y="467" width="630" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-196" value="" style="group" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-197">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-196" value="" style="group" parent="HJZfXHsSB8uMvftpIcYS-197" vertex="1" connectable="0">
           <mxGeometry y="100" width="380" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-183" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-196">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-183" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-196" vertex="1">
           <mxGeometry x="300" y="60" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-184" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-196">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-184" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-196" vertex="1">
           <mxGeometry x="340" y="60" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-195" value="" style="group" vertex="1" connectable="0" parent="HJZfXHsSB8uMvftpIcYS-196">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-195" value="" style="group" parent="HJZfXHsSB8uMvftpIcYS-196" vertex="1" connectable="0">
           <mxGeometry width="300" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-189" value="2收到小萌的公钥以后，&lt;br&gt;小风自己生成一个用于对称加密的密钥 KEY2，&lt;br&gt;这个密钥为了后续聊天加密来任务，&lt;br&gt;就是上次被中间人发现的密钥；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-195">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-189" value="2收到小萌的公钥以后，&lt;br&gt;小风自己生成一个用于对称加密的密钥 KEY2，&lt;br&gt;这个密钥为了后续聊天加密来任务，&lt;br&gt;就是上次被中间人发现的密钥；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-195" vertex="1">
           <mxGeometry width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-190" value="3为了安全，我们不再直接明文约定，&lt;br&gt;而是用刚才接收到的公钥 KEY1 对这个 KEY2 加密，&lt;br&gt;得到了 VA3（value3），&lt;br&gt;把这个发送给小萌；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-195">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-190" value="3为了安全，我们不再直接明文约定，&lt;br&gt;而是用刚才接收到的公钥 KEY1 对这个 KEY2 加密，&lt;br&gt;得到了 VA3（value3），&lt;br&gt;把这个发送给小萌；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-195" vertex="1">
           <mxGeometry y="80" width="300" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-194" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-195">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-194" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="HJZfXHsSB8uMvftpIcYS-195" vertex="1">
           <mxGeometry x="280" width="20" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-203" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-204">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-203" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="HJZfXHsSB8uMvftpIcYS-204" vertex="1">
           <mxGeometry width="20" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-205" value="������所以在这种加密方式下，中间人又想到了另外一个坏主意：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="3720" width="350" height="30" as="geometry" />
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-205" value="十、所以在这种加密方式下，&lt;br&gt;中间人又想到了另外一个坏主意：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="3715" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-206" value="HTTPS 的主体思想：&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;表白信息怎么加密？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-206" value="HTTPS 的主体思想：&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;表白信息怎么加密？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="1360" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-217" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180" y="2170" width="1180" height="180" as="geometry" />
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-217" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="220" y="2170" width="1180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-124" value="1虽然我们在后续的通讯中对明文进行了加密，但是第一次约定加密方式，约定加密方式之后的密钥的通信，仍然还是明文；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-124" value="1虽然我们在后续的通讯中对明文进行了加密，但是第一次约定加密方式，约定加密方式之后的密钥的通信，仍然还是明文；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="500" y="2" width="680" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-125" value="2如果我们第一次通信时就已经被拦截了，那么密钥就会泄漏给中间人，中间人仍然可以解密后续所有的通信内容；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-125" value="2如果我们第一次通信时就已经被拦截了，那么密钥就会泄漏给中间人，中间人仍然可以解密后续所有的通信内容；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="500" y="150" width="630" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-127" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-127" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="60" y="2" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-128" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-128" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="380" y="2" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-145" value="中间人" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-145" value="中间人" style="shape=actor;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="220" y="120" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-146" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-217" source="HJZfXHsSB8uMvftpIcYS-128" target="HJZfXHsSB8uMvftpIcYS-145">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-146" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="HJZfXHsSB8uMvftpIcYS-217" source="HJZfXHsSB8uMvftpIcYS-128" target="HJZfXHsSB8uMvftpIcYS-145" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="30" as="sourcePoint" />
             <mxPoint x="290" y="-20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-147" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="HJZfXHsSB8uMvftpIcYS-217" source="HJZfXHsSB8uMvftpIcYS-145" target="HJZfXHsSB8uMvftpIcYS-127">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-147" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="HJZfXHsSB8uMvftpIcYS-217" source="HJZfXHsSB8uMvftpIcYS-145" target="HJZfXHsSB8uMvftpIcYS-127" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="40" as="sourcePoint" />
             <mxPoint x="40" y="158" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-148" value="雕虫小技" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-148" value="雕虫小技" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="150" y="150" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-149" value="密钥xxxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-149" value="密钥xxxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="120" y="70" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-150" value="密钥xxxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-150" value="密钥xxxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="295" y="70" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-152" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-152" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="420" y="2" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-153" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-153" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry x="290" y="150" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-199" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="HJZfXHsSB8uMvftpIcYS-217">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-199" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="HJZfXHsSB8uMvftpIcYS-217" vertex="1">
           <mxGeometry width="20" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-2" value="中间人实在是太狡猾了，还有什么其他的办法么？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4290" width="290" height="30" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y7AVxp_HHKYe5JFIxOf8-2" target="y7AVxp_HHKYe5JFIxOf8-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-3" value="公钥再加密一次，就会鸡生蛋蛋生鸡，永无止境。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4320" width="290" height="30" as="geometry" />
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-2" value="中间人实在是太狡猾了，还有什么其他的办法么？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="4160" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-4" value="十一、新的解决方案：&lt;br&gt;&lt;br&gt;这时，有必要引入一个第三方，这个第三方就是一个权威的证书颁发机构，CA 来解决。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="4410" width="490" height="60" as="geometry" />
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-3" value="公钥再加密一次，就会鸡生蛋蛋生鸡，永无止境。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="4160" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-5" value="1到底什么是证书呢？证书包含这么几个信息：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="4530" width="270" height="30" as="geometry" />
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-4" value="十一、新的解决方案：&lt;br&gt;&lt;br&gt;这时，有必要引入一个第三方，&lt;br&gt;这个第三方就是一个权威的证书颁发机构，CA 来解决。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="4240" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-6" value="2证书信息的用处（看具体通信流程）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="4610" width="220" height="30" as="geometry" />
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-32" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="220" y="3360" width="1280" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="390" y="3360" width="1280" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-32">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="y7AVxp_HHKYe5JFIxOf8-32" vertex="1">
           <mxGeometry width="20" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-31" value="" style="group" vertex="1" connectable="0" parent="y7AVxp_HHKYe5JFIxOf8-32">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-31" value="" style="group" parent="y7AVxp_HHKYe5JFIxOf8-32" vertex="1" connectable="0">
           <mxGeometry x="30" width="1250" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-207" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-207" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry y="50" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-208" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-208" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="320" y="50" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-209" value="中间人" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-209" value="中间人" style="shape=actor;whiteSpace=wrap;html=1;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="160" y="168" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-210" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="y7AVxp_HHKYe5JFIxOf8-31" source="HJZfXHsSB8uMvftpIcYS-208" target="HJZfXHsSB8uMvftpIcYS-209">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-210" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="y7AVxp_HHKYe5JFIxOf8-31" source="HJZfXHsSB8uMvftpIcYS-208" target="HJZfXHsSB8uMvftpIcYS-209" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="78" as="sourcePoint" />
             <mxPoint x="230" y="28" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-211" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="y7AVxp_HHKYe5JFIxOf8-31" source="HJZfXHsSB8uMvftpIcYS-209" target="HJZfXHsSB8uMvftpIcYS-207">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-211" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="y7AVxp_HHKYe5JFIxOf8-31" source="HJZfXHsSB8uMvftpIcYS-209" target="HJZfXHsSB8uMvftpIcYS-207" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="88" as="sourcePoint" />
             <mxPoint x="-20" y="206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-213" value="公钥是 KEY3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-213" value="公钥是 KEY3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="50" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-214" value="公钥是 KEY1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-214" value="公钥是 KEY1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="225" y="118" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-215" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-215" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="160" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-216" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-216" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="160" y="130" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-218" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-218" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="75" y="80" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-219" value="1中间人虽然不知道小萌的私钥是什么，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-219" value="1中间人虽然不知道小萌的私钥是什么，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="480" y="20" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-220" value="2但是他截获了小萌的公钥 KEY1 之后，可以偷天换日，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-220" value="2但是他截获了小萌的公钥 KEY1 之后，可以偷天换日，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="480" y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-221" value="3自己另外生成一对公钥和私钥，把自己的公钥 KEY3 发给小风；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-221" value="3自己另外生成一对公钥和私钥，把自己的公钥 KEY3 发给小风；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="480" y="100" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-222" value="4小风不知道，公钥被偷偷改过，以为 KEY3 就是小萌的公钥；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-222" value="4小风不知道，公钥被偷偷改过，以为 KEY3 就是小萌的公钥；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="480" y="248" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-223" value="5然后，按照先前的流程，用 KEY3 加密了自己生成的对称加密的密钥 KEY2，&lt;br/&gt;发送给小萌，就是 VA4，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-223" value="5然后，按照先前的流程，用 KEY3 加密了自己生成的对称加密的密钥 KEY2，&lt;br/&gt;发送给小萌，就是 VA4，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="480" y="405" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-1" value="7这次，两个人的后续通信尽管还是一直在用 KEY2 做对称加密，但是中间人已经掌握了 KEY2；所以就可以轻松的解密，来获取你的内容了。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-1" value="7这次，两个人的后续通信尽管还是一直在用 KEY2 做对称加密，但是中间人已经掌握了 KEY2；所以就可以轻松的解密，来获取你的内容了。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="480" y="720" width="770" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-7" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-7" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry y="248" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-8" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-8" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry y="370" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-9" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-9" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="320" y="370" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-10" value="中间人" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-10" value="中间人" style="shape=actor;whiteSpace=wrap;html=1;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="160" y="488" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="y7AVxp_HHKYe5JFIxOf8-31" source="y7AVxp_HHKYe5JFIxOf8-9" target="y7AVxp_HHKYe5JFIxOf8-10">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="y7AVxp_HHKYe5JFIxOf8-31" source="y7AVxp_HHKYe5JFIxOf8-9" target="y7AVxp_HHKYe5JFIxOf8-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="398" as="sourcePoint" />
             <mxPoint x="230" y="348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="y7AVxp_HHKYe5JFIxOf8-31" source="y7AVxp_HHKYe5JFIxOf8-10" target="y7AVxp_HHKYe5JFIxOf8-8">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="y7AVxp_HHKYe5JFIxOf8-31" source="y7AVxp_HHKYe5JFIxOf8-10" target="y7AVxp_HHKYe5JFIxOf8-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="408" as="sourcePoint" />
             <mxPoint x="-20" y="526" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-14" value="1）用公钥KEY3加密KEY2&lt;br&gt;将VA4发出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-14" value="1）用公钥KEY3加密KEY2&lt;br&gt;将VA4发出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="20" y="440" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-15" value="3）VAL5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-15" value="3）VAL5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="240" y="440" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-18" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-18" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="75" y="410" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-20" value="⑦" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-20" value="⑦" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="104" y="720" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-26" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-26" value="" style="group;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1" connectable="0">
           <mxGeometry x="104" y="610" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-17" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-26">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-17" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-26" vertex="1">
           <mxGeometry y="20" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-26">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-26" vertex="1">
           <mxGeometry x="40" y="20" width="20" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-22" value="6.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-26">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-22" value="6.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-26" vertex="1">
           <mxGeometry x="60" y="10" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-23" value="6.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-26">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-23" value="6.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-26" vertex="1">
           <mxGeometry x="60" y="40" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-24" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="y7AVxp_HHKYe5JFIxOf8-26">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-24" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" as="sourcePoint" />
             <mxPoint x="80" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-25" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="y7AVxp_HHKYe5JFIxOf8-26">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-25" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" parent="y7AVxp_HHKYe5JFIxOf8-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="54" as="sourcePoint" />
             <mxPoint x="140" y="34" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-28" value="" style="group" vertex="1" connectable="0" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-28" value="" style="group" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1" connectable="0">
           <mxGeometry x="480" y="605" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-224" value="6这次通信再次被中间人再次截获&lt;br&gt;（吐舌头的人，哈哈哈）；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-28">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-224" value="6这次通信再次被中间人再次截获&lt;br&gt;（吐舌头的人，哈哈哈）；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-28" vertex="1">
           <mxGeometry y="15" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-225" value="6.1他先用自己的私钥解开了 KEY3 的加密，&lt;br&gt;获得了 KEY2，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-28">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-225" value="6.1他先用自己的私钥解开了 KEY3 的加密，&lt;br&gt;获得了 KEY2，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-28" vertex="1">
           <mxGeometry x="220" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HJZfXHsSB8uMvftpIcYS-226" value="6.2然后再用当初小红发过来的 KEY1 这个公钥，重新加密，&lt;br&gt;又发给小萌，这样又得到一个 VA5；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-28">
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-226" value="6.2然后再用当初小红发过来的 KEY1 这个公钥，重新加密，&lt;br&gt;又发给小萌，这样又得到一个 VA5；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-28" vertex="1">
           <mxGeometry x="220" y="40" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-28">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="y7AVxp_HHKYe5JFIxOf8-28" vertex="1">
           <mxGeometry x="199" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-29" value="2）用自己的私钥解密，得到KEY2&lt;br&gt;再用KEY1加密KEY2获得VAL5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="y7AVxp_HHKYe5JFIxOf8-31">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-29" value="2）用自己的私钥解密，得到KEY2&lt;br&gt;再用KEY1加密KEY2获得VAL5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="y7AVxp_HHKYe5JFIxOf8-31" vertex="1">
           <mxGeometry x="80" y="560" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="4240" as="sourcePoint" />
-            <mxPoint x="1200" y="4240" as="targetPoint" />
+            <mxPoint x="40" y="4200" as="sourcePoint" />
+            <mxPoint x="1200" y="4200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-34" value="to do" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="575" y="4298" width="50" height="30" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-51" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="5410" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-52" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="5410" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KSt5WhF_cTXbCiw3sWYh-51" target="KSt5WhF_cTXbCiw3sWYh-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="5440" as="sourcePoint" />
+            <mxPoint x="590" y="5390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSt5WhF_cTXbCiw3sWYh-52" target="KSt5WhF_cTXbCiw3sWYh-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="5550" as="sourcePoint" />
+            <mxPoint x="550" y="5500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-56" value="XX**@$$%$###$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="5410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-57" value="**&amp;amp;&amp;amp;#￥%*##@" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="5450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-99" value="六、就像这样，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1810" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="1680" width="940" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-52" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="210" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-92" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="60" y="12" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-93" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="380" y="12" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="KSt5WhF_cTXbCiw3sWYh-85" source="HJZfXHsSB8uMvftpIcYS-92" target="HJZfXHsSB8uMvftpIcYS-93" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="52" as="sourcePoint" />
+            <mxPoint x="270" y="2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="KSt5WhF_cTXbCiw3sWYh-85" source="HJZfXHsSB8uMvftpIcYS-93" target="HJZfXHsSB8uMvftpIcYS-92" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="125" as="sourcePoint" />
+            <mxPoint x="410" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-96" value="小萌，我们聊天吧！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="175" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-98" value="好啊，我们用AES加密，密码是xxx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="135" y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-100" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="60" y="212" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-101" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="380" y="212" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-102" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="KSt5WhF_cTXbCiw3sWYh-85" source="HJZfXHsSB8uMvftpIcYS-100" target="HJZfXHsSB8uMvftpIcYS-101" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="252" as="sourcePoint" />
+            <mxPoint x="270" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-103" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="KSt5WhF_cTXbCiw3sWYh-85" source="HJZfXHsSB8uMvftpIcYS-101" target="HJZfXHsSB8uMvftpIcYS-100" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="325" as="sourcePoint" />
+            <mxPoint x="410" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-104" value="XX**@$$%$###$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="180" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-105" value="**&amp;amp;&amp;amp;#￥%*##@" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="185" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-107" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-108" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="340" y="50" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-109" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="340" y="110" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-110" value="⑦" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="340" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-111" value="⑧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="340" y="250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-112" value="4小风先发送聊天请求，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="470" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-113" value="5小萌直接回复给小风一个密钥，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="470" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-114" value="6小风后边的信息和表白都通过这个密钥来加密之后再来发送，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="470" y="110" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-115" value="7后边的信息都变成了这个样子：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="470" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-116" value="8这样如果不知道密钥，即使获取到了信息，拦截到了信息，也没有办法解析和篡改。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="470" y="250" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-119" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry x="450" y="200" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-120" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-85" vertex="1">
+          <mxGeometry width="20" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-79" value="五、表白信息怎么加密？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1527.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-86" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="1480" width="630" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-80" value="1小风和小萌可以事先约定好一种加密方式，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry x="20" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-81" value="2并且约定好一种随机生成的密钥，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry x="20" y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-82" value="3这个密钥，小萌告诉小风，后续的通信里，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry x="20" y="80" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-83" value="3.1信息的发送方，都使用密钥对着信息加密，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry x="300" y="65" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-84" value="3.2而信息的接收方同样使用同一个密钥对信息进行解密，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry x="300" y="95" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-85" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry x="280" y="70" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-86" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-86" vertex="1">
+          <mxGeometry width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-88" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="2440" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-156" value="1我们可以使用刚刚提到的非对称加密，为密钥的传输做一层额外的捕获：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-88" vertex="1">
+          <mxGeometry x="20" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-157" value="2非对称加密的一组密钥中，包含一个公钥和一个私钥，明文既可以用公钥加密，用私钥解密，也可以用私钥加密，用公钥解密；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-88" vertex="1">
+          <mxGeometry x="20" y="50" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-159" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-88" vertex="1">
+          <mxGeometry width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-89" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="1130" width="950" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-65" value="4⃣️别担心，我们可以对明文进行加密！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="10" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-66" value="5⃣️先普及一个概念——加密算法（2种）：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="10" y="79.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-68" value="非对称加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="280" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-69" value="对称加密" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="280" y="39" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-72" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="260" y="39" width="20" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-73" value="也叫做密钥加密：&lt;br&gt;就是指加密和解密使用的都是一个相同的密钥；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="480" y="34" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-89" source="HJZfXHsSB8uMvftpIcYS-69" target="HJZfXHsSB8uMvftpIcYS-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-76" value="也叫公钥加密，&lt;br&gt;加密和解密使用了不同的密钥，&lt;br&gt;比如说：谍战片、二次世界大战，抗日里的加密电报，世界大战里的各种沟通方式，&lt;br&gt;其实都用到了一些加密的方程。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry x="480" y="100" width="470" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-89" source="HJZfXHsSB8uMvftpIcYS-68" target="HJZfXHsSB8uMvftpIcYS-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-78" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-89" vertex="1">
+          <mxGeometry width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-90" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="690" width="1040" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-38" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="60" y="20" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-39" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="380" y="20" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" source="HJZfXHsSB8uMvftpIcYS-38" target="HJZfXHsSB8uMvftpIcYS-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-42" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="215" y="15" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-43" value="发请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-44" value="由于传输信息是明文，这个信息有可能被某个中间人恶意拦截，甚至篡改，这种行为就叫做中间人攻击。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="460" y="35" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-45" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="210" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-47" value="风" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="60" y="160" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-48" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="380" y="160" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-53" value="中间人攻击" style="shape=actor;whiteSpace=wrap;html=1;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="220" y="270" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="KSt5WhF_cTXbCiw3sWYh-90" source="HJZfXHsSB8uMvftpIcYS-47" target="HJZfXHsSB8uMvftpIcYS-53" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="320" as="sourcePoint" />
+            <mxPoint x="150" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-59" value="Text1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HJZfXHsSB8uMvftpIcYS-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.0619" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="KSt5WhF_cTXbCiw3sWYh-90" source="HJZfXHsSB8uMvftpIcYS-53" target="HJZfXHsSB8uMvftpIcYS-48" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-60" value="Text2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HJZfXHsSB8uMvftpIcYS-57" vertex="1" connectable="0">
+          <mxGeometry x="-0.034" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-71" value="就像图里展示的一样，中间人通过截获请求的数据包，不但可以看还能够篡改，中间人改成了“小萌，我讨厌你！”，一下就搞黄了小风的表白。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry x="20" y="350" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-198" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-90" vertex="1">
+          <mxGeometry width="20" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-10" value="回顾 HTTP 协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="385" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="280" width="830" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-26" value="" style="group" parent="KSt5WhF_cTXbCiw3sWYh-91" vertex="1" connectable="0">
+          <mxGeometry x="50" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-11" value="HTTP 与 HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="25" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry y="40" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-13" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="70" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-15" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="70" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" source="HJZfXHsSB8uMvftpIcYS-13" target="HJZfXHsSB8uMvftpIcYS-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-17" value="IP" style="rounded=0;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="70" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" source="HJZfXHsSB8uMvftpIcYS-15" target="HJZfXHsSB8uMvftpIcYS-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-19" value="网络" style="rounded=0;whiteSpace=wrap;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="70" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="HJZfXHsSB8uMvftpIcYS-26" source="HJZfXHsSB8uMvftpIcYS-17" target="HJZfXHsSB8uMvftpIcYS-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-21" value="应用层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="10" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-22" value="传输层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="10" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-23" value="网络层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="10" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-25" value="链路层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HJZfXHsSB8uMvftpIcYS-26" vertex="1">
+          <mxGeometry x="10" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="KSt5WhF_cTXbCiw3sWYh-91" vertex="1">
+          <mxGeometry width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-28" value="HTTP 协议，就是超文本传输协议，位于 TCP/IP 四层模型中的应用层，就是现在展示的最上面的这一层；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-91" vertex="1">
+          <mxGeometry x="250" y="50" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-29" value="HTTP 协议通过请求响应的方式，在客户端和服务端之间进行通信。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-91" vertex="1">
+          <mxGeometry x="250" y="100" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-30" value="但 HTTP 有一个致命的缺点——不够安全。怎么不够安全呢？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-91" vertex="1">
+          <mxGeometry x="250" y="150" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJZfXHsSB8uMvftpIcYS-31" value="因为 HTTP 协议的传输完全是以明文的方式，不做任何加密，相当于在网络上裸奔。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-91" vertex="1">
+          <mxGeometry x="250" y="200" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-92" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="3320" as="sourcePoint" />
+            <mxPoint x="1200" y="3320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-93" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2600" as="sourcePoint" />
+            <mxPoint x="1200" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-94" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2400" as="sourcePoint" />
+            <mxPoint x="1200" y="2400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-95" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2040" as="sourcePoint" />
+            <mxPoint x="1200" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-96" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1640" as="sourcePoint" />
+            <mxPoint x="1200" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-97" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1320" as="sourcePoint" />
+            <mxPoint x="1200" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-98" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1100" as="sourcePoint" />
+            <mxPoint x="1200" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-99" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="560" as="sourcePoint" />
+            <mxPoint x="1200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-100" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="80" as="sourcePoint" />
+            <mxPoint x="1200" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-102" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="4320" width="1050" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-101" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-102">
+          <mxGeometry width="20" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-31" value="当然，证书里还会有其他的一些信息，但是，为了便于说明，在这里做了简化，只列出这么一些关键信息；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-102">
+          <mxGeometry x="460" y="240" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-5" value="1到底&lt;b&gt;什么是证书&lt;/b&gt;呢？&lt;br&gt;证书包含这么几个信息：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-102" vertex="1">
+          <mxGeometry x="20" y="105" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-22" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-102">
+          <mxGeometry x="210" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.pie;startAngle=0.7481707133956567;endAngle=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.pie;startAngle=0;endAngle=0.25;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="10" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.pie;startAngle=0.5;endAngle=0.75;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.pie;startAngle=0.25;endAngle=0.5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="10" y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-13" value="证书机构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-14" value="证书颁发机构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="5" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-15" value="服务端网址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="90" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-16" value="机构私钥加密&lt;br style=&quot;font-size: 10px;&quot;&gt;（服务端公钥）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-17" value="机构私钥加密&lt;br style=&quot;font-size: 10px;&quot;&gt;（证书签名）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="85" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-18" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="59" y="98" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-19" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="80" y="98" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-20" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="59" y="119" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-21" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-22">
+          <mxGeometry x="80" y="119" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-29" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-102">
+          <mxGeometry x="440" y="50" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-23" value="证书的颁发机构，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-29">
+          <mxGeometry x="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-24" value="服务端的网址是什么，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-29">
+          <mxGeometry x="20" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-25" value="公钥（机构私钥加密）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-29">
+          <mxGeometry x="20" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-26" value="和证书签名（机构私钥加密）；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-29">
+          <mxGeometry x="20" y="120" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-29">
+          <mxGeometry width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-104" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="4720" width="1840" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-103" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-104">
+          <mxGeometry width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-66" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
+          <mxGeometry x="540" width="680" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-32" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="120" y="170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-33" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="520" y="170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/jpeg,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;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KSt5WhF_cTXbCiw3sWYh-66" source="KSt5WhF_cTXbCiw3sWYh-35" target="KSt5WhF_cTXbCiw3sWYh-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="50" as="sourcePoint" />
+            <mxPoint x="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.25;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KSt5WhF_cTXbCiw3sWYh-66" source="KSt5WhF_cTXbCiw3sWYh-33" target="KSt5WhF_cTXbCiw3sWYh-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KSt5WhF_cTXbCiw3sWYh-66" source="KSt5WhF_cTXbCiw3sWYh-32" target="KSt5WhF_cTXbCiw3sWYh-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="270" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="KSt5WhF_cTXbCiw3sWYh-66" source="KSt5WhF_cTXbCiw3sWYh-33" target="KSt5WhF_cTXbCiw3sWYh-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-40" value="1）服务端公钥KEY1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="440" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-41" value="2）&lt;font color=&quot;#ff0000&quot;&gt;证书&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="420" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-42" value="3）小萌，我们聊天吧！" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="265" y="175" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-43" value="4）证书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="305" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-44" value="5）验证证书，解密获得公钥 KEY1&lt;br/&gt;将准备进行对称加密的 KEY2&lt;br/&gt;用公钥 KEY1 加密，加密结果为 VA3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="30" y="100" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-45" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="120" y="330" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-46" value="萌" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="520" y="330" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KSt5WhF_cTXbCiw3sWYh-66" source="KSt5WhF_cTXbCiw3sWYh-45" target="KSt5WhF_cTXbCiw3sWYh-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="KSt5WhF_cTXbCiw3sWYh-66" source="KSt5WhF_cTXbCiw3sWYh-46" target="KSt5WhF_cTXbCiw3sWYh-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="470" as="sourcePoint" />
+            <mxPoint x="270" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-49" value="VA3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="315" y="337" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-50" value="6）通过私钥解密，获得KEY2，&lt;br/&gt;接下来和以前一样用KEY2加密聊天" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="435" y="280" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-58" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="500" y="50" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-59" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-60" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="260" y="140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-61" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry y="115" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-62" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry y="250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-63" value="⑥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-64" value="⑦" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="280" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-65" value="⑧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
+          <mxGeometry x="640" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-77" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
+          <mxGeometry x="20" y="240" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-71" value="2.5 接下来，小风就可以按照同样的签名规则，&lt;br&gt;自己也生成一个证书签名；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-77">
+          <mxGeometry x="230" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-72" value="2.6 然后，如果两个签名是一致的，说明证书是有效的；&lt;br&gt;验证成功以后呢，小风就可以放心的再次利用机构的公钥解密出服务端小萌的公钥 KEY1；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-77">
+          <mxGeometry y="40" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-75" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-77">
+          <mxGeometry x="500" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-78" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
+          <mxGeometry x="270" y="110" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-70" value="2.4 小风收到证书之后，&lt;br&gt;要做的第一件事情就是，验证证书的真伪：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-78">
+          <mxGeometry width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-76" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-78">
+          <mxGeometry x="250" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-80" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
+          <mxGeometry x="1240" y="240" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-73" value="2.7 那这后面就跟之前一样了，&lt;br&gt;小风生成自己对应的对称加密的密钥 KEY2，&lt;br&gt;并且用服务端公钥 KEY1 加密 KEY2，&lt;br&gt;发送给小萌；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-80">
+          <mxGeometry x="20" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-74" value="2.8 最后呢，&lt;br&gt;小萌还是用自己的私钥解开加密（解密），&lt;br&gt;得到对称加密的密钥 KEY2；&lt;br&gt;于是两个人，可以开始用 KEY2 来进行对称加密的通信；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-80">
+          <mxGeometry x="20" y="80" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-79" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-80">
+          <mxGeometry width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-82" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
+          <mxGeometry x="1240" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-67" value="2.1 首先，作为服务端的小萌，先把自己的公钥 KEY1 发给证书颁发机构；&lt;br&gt;由证书颁发机构去申请证书，证书颁发机构自己也有一对公钥和私钥；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-82">
+          <mxGeometry x="20" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-68" value="2.2&lt;br&gt;机构利用自己的私钥来加密 KEY1，并且通过服务端网址等信息生成一个证书签名；&lt;br&gt;证书签名同样经过了机构的私钥加密，这样制作完成了一个证书，机构把这个证书发送给了服务端小萌；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-82">
+          <mxGeometry x="20" y="40" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-69" value="2.3 当后续小风再次向小萌请求通信时，&lt;br&gt;小萌就不再返回自己的公钥了，&lt;br&gt;而是直接把自己申请的证书返回给小风；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-82">
+          <mxGeometry x="20" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-81" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-82">
+          <mxGeometry width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-6" value="2.证书信息的用处&lt;br&gt;（看具体通信流程）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-104" vertex="1">
+          <mxGeometry x="20" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
