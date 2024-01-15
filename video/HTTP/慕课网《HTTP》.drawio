@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:45:20.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-GI0jbCv71-XY1lC6iSc" version="22.1.18" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:51:46.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FTreqhFOF8vG5k0Fcf-G" version="22.1.18" type="github" pages="6">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1535,7 +1535,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6M13XiAM2dJnbIe9lccN" name="6-1-趣解HTTP与HTTPS">
-    <mxGraphModel dx="2868" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2374,14 +2374,14 @@
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-29">
           <mxGeometry width="20" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-104" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="260" y="4720" width="1840" height="390" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-111" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="4640" width="2110" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-103" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-104">
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-103" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-111">
           <mxGeometry width="20" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-66" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
-          <mxGeometry x="540" width="680" height="390" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-66" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-111">
+          <mxGeometry x="810" width="680" height="390" as="geometry" />
         </mxCell>
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-32" value="风" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
           <mxGeometry x="120" y="170" width="40" height="60" as="geometry" />
@@ -2479,8 +2479,8 @@
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-65" value="⑧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-66">
           <mxGeometry x="640" y="280" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-77" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
-          <mxGeometry x="20" y="240" width="520" height="80" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-77" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-111">
+          <mxGeometry x="290" y="240" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-71" value="2.5 接下来，小风就可以按照同样的签名规则，&lt;br&gt;自己也生成一个证书签名；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-77">
           <mxGeometry x="230" width="270" height="40" as="geometry" />
@@ -2491,17 +2491,8 @@
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-75" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-77">
           <mxGeometry x="500" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-78" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
-          <mxGeometry x="270" y="110" width="270" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-70" value="2.4 小风收到证书之后，&lt;br&gt;要做的第一件事情就是，验证证书的真伪：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-78">
-          <mxGeometry width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-76" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-78">
-          <mxGeometry x="250" width="20" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-80" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
-          <mxGeometry x="1240" y="240" width="340" height="150" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-80" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-111">
+          <mxGeometry x="1510" y="240" width="340" height="150" as="geometry" />
         </mxCell>
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-73" value="2.7 那这后面就跟之前一样了，&lt;br&gt;小风生成自己对应的对称加密的密钥 KEY2，&lt;br&gt;并且用服务端公钥 KEY1 加密 KEY2，&lt;br&gt;发送给小萌；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-80">
           <mxGeometry x="20" width="260" height="70" as="geometry" />
@@ -2512,8 +2503,8 @@
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-79" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-80">
           <mxGeometry width="20" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="KSt5WhF_cTXbCiw3sWYh-82" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-104">
-          <mxGeometry x="1240" width="600" height="160" as="geometry" />
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-82" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-111">
+          <mxGeometry x="1510" width="600" height="160" as="geometry" />
         </mxCell>
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-67" value="2.1 首先，作为服务端的小萌，先把自己的公钥 KEY1 发给证书颁发机构；&lt;br&gt;由证书颁发机构去申请证书，证书颁发机构自己也有一对公钥和私钥；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-82">
           <mxGeometry x="20" width="420" height="40" as="geometry" />
@@ -2527,8 +2518,29 @@
         <mxCell id="KSt5WhF_cTXbCiw3sWYh-81" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-82">
           <mxGeometry width="20" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="y7AVxp_HHKYe5JFIxOf8-6" value="2.证书信息的用处&lt;br&gt;（看具体通信流程）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="KSt5WhF_cTXbCiw3sWYh-104" vertex="1">
+        <mxCell id="y7AVxp_HHKYe5JFIxOf8-6" value="2.证书通信的用处&lt;br&gt;（看具体通信流程）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="KSt5WhF_cTXbCiw3sWYh-111" vertex="1">
           <mxGeometry x="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-110" value="" style="group" vertex="1" connectable="0" parent="KSt5WhF_cTXbCiw3sWYh-111">
+          <mxGeometry x="20" y="70" width="790" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-105" value="这里，需要特别说明的是，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-110">
+          <mxGeometry x="610" y="65" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-107" value="各大浏览器和操作系统已经维护了所有权威证书机构的名称，和公钥。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-110">
+          <mxGeometry x="190" y="50" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-108" value="所以呢，小风只需要知道是哪个机构颁布的证书，就可以从本地找到对应的机构公钥，解密出证书的签名；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-110">
+          <mxGeometry y="80" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-70" value="2.4 小风收到证书之后，&lt;br&gt;要做的第一件事情就是，验证证书的真伪：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-110">
+          <mxGeometry x="520" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-76" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-110">
+          <mxGeometry x="770" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KSt5WhF_cTXbCiw3sWYh-109" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="KSt5WhF_cTXbCiw3sWYh-110">
+          <mxGeometry x="590" y="40" width="20" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
