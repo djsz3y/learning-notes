@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T12:21:46.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gB6ydhK-6U4s1S6qMszL" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-20T10:52:30.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1gYb_N0dPAnbhTf5iJzL" version="22.1.21" type="github" pages="7">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2610,183 +2610,52 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zFKJl2OKQuNM58kkiugD-59" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="50" width="1210" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-56" value="" style="group" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-59">
-          <mxGeometry x="120" width="1090" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-54" value="" style="group" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-56">
-          <mxGeometry x="20" width="1070" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-11" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;TLS 实际上是 TCP 之上建立了一个加密通道；&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry y="40" width="310" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-12" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;TLS 协议主要有 5 个部分，包含着叫：&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry y="80" width="270" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zFKJl2OKQuNM58kkiugD-54" source="zFKJl2OKQuNM58kkiugD-12" target="zFKJl2OKQuNM58kkiugD-20">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zFKJl2OKQuNM58kkiugD-60" target="zFKJl2OKQuNM58kkiugD-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-13" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;目前，比较常用的 HTTP 协议是 HTTP1.1；&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry y="120" width="300" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-14" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;HTTP 和 TLS 在协议层的位置，可以认为 TLS 是建立在传输层和应用层之间；&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry width="480" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-18" value="应用数据层协议、&lt;br&gt;握手协议、&lt;br&gt;报警协议、&lt;br&gt;加密消息确认协议&lt;br&gt;和心跳协议" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry x="510" y="60" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry x="480" y="65" width="20" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-20" value="这么 5 个部分；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry x="370" y="90" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-53" value="" style="group" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-54">
-          <mxGeometry y="160" width="1070" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-16" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;常用的 TLS 协议版本有这么几个：&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-53">
-          <mxGeometry y="125" width="250" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-53">
-          <mxGeometry x="240" width="20" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-52" value="" style="group" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-53">
-          <mxGeometry x="260" width="810" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-22" value="TLS1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry y="150" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-23" value="SSL3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry y="20" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-24" value="TLS1.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry y="100" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-25" value="TLS1.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry y="180" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-26" value="其中，SSL3.0 由于有一种攻击，叫做 POODLE 攻击；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="130" y="20" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-23" target="zFKJl2OKQuNM58kkiugD-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="61" y="150" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-37" value="同时也有比较大量的扩展的访问速度的提升和性能的提升；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="220" y="180" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-38" value="TLS1.2 和 TLS1.1 暂时没有什么已知的安全漏洞，算是比较安全的；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="120" y="150" width="390" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-39" value="现在也已经发布了，是 TLS 协议一个非常重大的变革；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="130" y="230" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-41" target="zFKJl2OKQuNM58kkiugD-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-41" value="TLS1.3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="1" y="230" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-43" value="不管是安全性还是用户的访问速度，都会有一个质的提升；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry y="270" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="110" y="150" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-33" target="zFKJl2OKQuNM58kkiugD-45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-47" value="TLS1.0 呢也存在着部分的安全漏洞，比如像 RC4、BEAST 这种攻击方式；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="130" y="100" width="420" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-24" target="zFKJl2OKQuNM58kkiugD-47">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="276" y="115" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-50" value="" style="group" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-52">
-          <mxGeometry x="440" width="370" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-50">
-          <mxGeometry width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-48" value="由于这种攻击，认为 SSL3.0 协议它是不安全的；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-50">
-          <mxGeometry x="20" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-49" value="但是统计发现仍然有不到 1%的浏览器，还是在使用 SSL3.0；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-50">
-          <mxGeometry x="20" y="30" width="350" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-55" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-56">
-          <mxGeometry width="20" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-57" value="" style="group" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-59">
-          <mxGeometry y="120" width="100" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-1" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-57">
-          <mxGeometry width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-2" value="SSL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-57">
-          <mxGeometry x="10" y="50" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-3" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-57">
-          <mxGeometry y="80" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-4" value="IP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-57">
-          <mxGeometry y="130" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-5" value="数据链路层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-57">
-          <mxGeometry y="180" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zFKJl2OKQuNM58kkiugD-60" target="zFKJl2OKQuNM58kkiugD-61">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-60" value="比如说现在打开 360 浏览器：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-60" value="比如说现在打开 360 浏览器：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="600" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-61" value="如果访问百度，百度的前面有一个小锁头，点击看到能够展示了目前使用的 TLS 版本，比如我是 1.2，然后我用什么加密的，我的身份验证是密钥交换机制是什么样子的。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-61" value="如果访问百度，百度的前面有一个小锁头，点击看到能够展示了目前使用的 TLS 版本，比如我是 1.2，然后我用什么加密的，我的身份验证是密钥交换机制是什么样子的。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="360" y="600" width="920" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zFKJl2OKQuNM58kkiugD-63" target="zFKJl2OKQuNM58kkiugD-64">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zFKJl2OKQuNM58kkiugD-63" target="zFKJl2OKQuNM58kkiugD-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-63" value="- HTTPS 可以认为是HTTP+TLS。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-63" value="- HTTPS 可以认为是HTTP+TLS。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="-185" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-64" value="就像前面说过的，目前很多网站/绝大多数网站都应用了HTTPS；&lt;br&gt;HTTPS 可以认为是HTTP+TLS；&lt;br&gt;HTTP协议大家都耳熟能详了对吧，我们也说了很多，目前大部分的web应用和网站都是使用HTTP协议传输的。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-64" value="就像前面说过的，目前很多网站/绝大多数网站都应用了HTTPS；&lt;br&gt;HTTPS 可以认为是HTTP+TLS；&lt;br&gt;HTTP协议大家都耳熟能详了对吧，我们也说了很多，目前大部分的web应用和网站都是使用HTTP协议传输的。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="400" y="-200" width="610" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-66" value="- TLS 是传输层加密协议，它的前身是 SSL 协议。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-66" value="- TLS 是传输层加密协议，它的前身是 SSL 协议。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="-76" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-75" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-75" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="420" y="-122" width="890" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-74" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-75">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-74" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="zFKJl2OKQuNM58kkiugD-75" vertex="1">
           <mxGeometry y="2" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-67" value="最早由网景公司（与微软打官司，协议解决了，但是被微软打败了）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-75">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-67" value="最早由网景公司（与微软打官司，协议解决了，但是被微软打败了）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-75" vertex="1">
           <mxGeometry x="20" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-68" value="SSL 协议由网景公司 1995 年发布的；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-75">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-68" value="SSL 协议由网景公司 1995 年发布的；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-75" vertex="1">
           <mxGeometry x="20" y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-69" value="1995 年经过 IETF 讨论和规范之后，改名成为了 TLS。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-75">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-69" value="1995 年经过 IETF 讨论和规范之后，改名成为了 TLS。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-75" vertex="1">
           <mxGeometry x="20" y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-70" value="所以后面没有特别说明，SSL 和 TLS 说的都是一个协议。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-75">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-70" value="所以后面没有特别说明，SSL 和 TLS 说的都是一个协议。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-75" vertex="1">
           <mxGeometry x="20" y="92" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-71" value="最早比 IE 浏览器使用范围大的多，要牛的多这样的一个网景浏览器；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-75">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-71" value="最早比 IE 浏览器使用范围大的多，要牛的多这样的一个网景浏览器；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-75" vertex="1">
           <mxGeometry x="500" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zFKJl2OKQuNM58kkiugD-75" source="zFKJl2OKQuNM58kkiugD-67" target="zFKJl2OKQuNM58kkiugD-71">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="zFKJl2OKQuNM58kkiugD-75" source="zFKJl2OKQuNM58kkiugD-67" target="zFKJl2OKQuNM58kkiugD-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zFKJl2OKQuNM58kkiugD-64" target="zFKJl2OKQuNM58kkiugD-66">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zFKJl2OKQuNM58kkiugD-64" target="zFKJl2OKQuNM58kkiugD-66" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="368.4699999999996" y="-140" as="sourcePoint" />
             <mxPoint x="169.99542372881362" y="-76" as="targetPoint" />
@@ -2795,13 +2664,144 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-78" value="那TLS协议呢？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zFKJl2OKQuNM58kkiugD-77">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-78" value="那TLS协议呢？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zFKJl2OKQuNM58kkiugD-77" vertex="1" connectable="0">
           <mxGeometry x="0.2047" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-79" value="上一节，已经对HTTPS有了一个形象、生动的初步认识，今天更系统、更原理的学习HTTPS的设计和原理。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zFKJl2OKQuNM58kkiugD-79" value="上一节，已经对HTTPS有了一个形象、生动的初步认识，今天更系统、更原理的学习HTTPS的设计和原理。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="-240" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-57" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="130" y="170" width="100" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-1" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="zFKJl2OKQuNM58kkiugD-57" vertex="1">
+          <mxGeometry width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-2" value="SSL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="zFKJl2OKQuNM58kkiugD-57" vertex="1">
+          <mxGeometry x="10" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-3" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="zFKJl2OKQuNM58kkiugD-57" vertex="1">
+          <mxGeometry y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-4" value="IP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="zFKJl2OKQuNM58kkiugD-57" vertex="1">
+          <mxGeometry y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-5" value="数据链路层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="zFKJl2OKQuNM58kkiugD-57" vertex="1">
+          <mxGeometry y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-55" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="250" y="50" width="20" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-11" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;②TLS 实际上是 TCP 之上建立了一个加密通道；&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="90" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-12" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;③TLS 协议主要有 5 个部分，包含着叫：&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="130" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zFKJl2OKQuNM58kkiugD-12" target="zFKJl2OKQuNM58kkiugD-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-13" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;④目前，比较常用的 HTTP 协议是 HTTP1.1；&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="170" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-14" value="&lt;ul style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;①HTTP 和 TLS 在协议层的位置，可以认为 TLS 是建立在传输层和应用层之间；&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="265" y="50" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-18" value="应用数据层协议、&lt;br&gt;握手协议、&lt;br&gt;报警协议、&lt;br&gt;加密消息确认协议&lt;br&gt;和心跳协议" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="780" y="110" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="750" y="115" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-20" value="这么 5 个部分；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="640" y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-53" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="270" y="210" width="1070" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-16" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;⑤常用的 TLS 协议版本有这么几个：&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-53" vertex="1">
+          <mxGeometry x="-5" y="125" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="zFKJl2OKQuNM58kkiugD-53" vertex="1">
+          <mxGeometry x="240" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-52" value="" style="group" parent="zFKJl2OKQuNM58kkiugD-53" vertex="1" connectable="0">
+          <mxGeometry x="260" width="810" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-22" value="TLS1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-23" value="SSL3.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-24" value="TLS1.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-25" value="TLS1.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-26" value="其中，SSL3.0 由于有一种攻击，叫做 POODLE 攻击；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="130" y="20" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-23" target="zFKJl2OKQuNM58kkiugD-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="61" y="150" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-37" value="同时也有比较大量的扩展的访问速度的提升和性能的提升；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="220" y="180" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-38" value="TLS1.2 和 TLS1.1 暂时没有什么已知的安全漏洞，算是比较安全的；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="120" y="150" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-39" value="现在也已经发布了，是 TLS 协议一个非常重大的变革；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="130" y="230" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-41" target="zFKJl2OKQuNM58kkiugD-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-41" value="TLS1.3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="1" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-43" value="不管是安全性还是用户的访问速度，都会有一个质的提升；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry y="270" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="110" y="150" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-33" target="zFKJl2OKQuNM58kkiugD-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-47" value="TLS1.0 呢也存在着部分的安全漏洞，比如像 RC4、BEAST 这种攻击方式；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1">
+          <mxGeometry x="130" y="100" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="zFKJl2OKQuNM58kkiugD-52" source="zFKJl2OKQuNM58kkiugD-24" target="zFKJl2OKQuNM58kkiugD-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="276" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-50" value="" style="group" parent="zFKJl2OKQuNM58kkiugD-52" vertex="1" connectable="0">
+          <mxGeometry x="440" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="zFKJl2OKQuNM58kkiugD-50" vertex="1">
+          <mxGeometry width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-48" value="由于这种攻击，认为 SSL3.0 协议它是不安全的；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-50" vertex="1">
+          <mxGeometry x="20" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zFKJl2OKQuNM58kkiugD-49" value="但是统计发现仍然有不到 1%的浏览器，还是在使用 SSL3.0；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zFKJl2OKQuNM58kkiugD-50" vertex="1">
+          <mxGeometry x="20" y="30" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vgpms4-kkqJ-5dqpmE4f-4" value="&lt;font color=&quot;#ff0000&quot;&gt;⑤&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zFKJl2OKQuNM58kkiugD-53">
+          <mxGeometry width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vgpms4-kkqJ-5dqpmE4f-1" value="①&lt;br&gt;②&lt;br&gt;③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="195" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgpms4-kkqJ-5dqpmE4f-3" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
