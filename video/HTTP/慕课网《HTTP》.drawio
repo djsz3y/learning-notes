@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T10:58:40.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LBARwLDzUoZPmsnkJjSa" version="22.1.21" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-20T11:20:06.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="v3MU9PPmDRyD-7KA5Q9F" version="22.1.21" type="github" pages="7">
   <diagram id="uMMviY4xtw7i1Muk4mrR" name="VUE-虚拟dom-vnode">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2616,8 +2616,8 @@
         <mxCell id="zFKJl2OKQuNM58kkiugD-60" value="比如说现在打开 360 浏览器：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="600" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zFKJl2OKQuNM58kkiugD-61" value="如果访问百度，百度的前面有一个小锁头，点击看到能够展示了目前使用的 TLS 版本，比如我是 1.2，然后我用什么加密的，我的身份验证是密钥交换机制是什么样子的。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="360" y="600" width="920" height="30" as="geometry" />
+        <mxCell id="zFKJl2OKQuNM58kkiugD-61" value="如果访问百度，&lt;br&gt;百度的前面有一个小锁头，&lt;br&gt;点击看到能够展示了目前使用的 TLS 版本，&lt;br&gt;比如我是 1.2，然后我用什么加密的，&lt;br&gt;我的身份验证是密钥交换机制是什么样子的。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="670" y="570" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zFKJl2OKQuNM58kkiugD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zFKJl2OKQuNM58kkiugD-63" target="zFKJl2OKQuNM58kkiugD-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2818,6 +2818,12 @@
             <mxPoint x="530" y="419.72" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vgpms4-kkqJ-5dqpmE4f-12" value="HTTPS功能介绍" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vgpms4-kkqJ-5dqpmE4f-13" value="（那么，为什么要有 HTTPS 呢？）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
