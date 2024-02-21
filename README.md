@@ -63,7 +63,7 @@
 
 ### 学习 JavaScript 数据结构与算法
 
-《学习 JavaScript 数据结构与算法》读书笔记
+- [《学习 JavaScript 数据结构与算法》读书笔记](/book/learning-js-data-structures-and-algorithms-third-edition/README.md)
 
 ### JavaScript 设计模式与开发实践
 
@@ -87,7 +87,18 @@
 
 [返回学习笔记目录](/README.md)
 
-- [2-2 TCP/IP](/video/HTTP/TCPIP.md)
+- [2-2-HTTP 协议的前世今生](/video/HTTP/2-2-HTTP协议的前世今生.md)
+- [2-3-透过 TCPIP 看 HTTP](/video/HTTP/2-3-透过TCPIP看HTTP.md)
+- [2-4-“你是如何访问慕课网的”--DNS 域名解析](/video/HTTP/2-4-“你是如何访问慕课网的”--DNS域名解析.md)
+- [2-5-回溯 HTTP 事务处理过程](/video/HTTP/2-5-回溯HTTP事务处理过程.md)
+- [6-1-趣解 HTTP 与 HTTPS](/video/HTTP/6-1-趣解HTTP与HTTPS.md)
+- [6-2-HTTPS 协议概述](/video/HTTP/6-2-HTTPS协议概述.md)
+- [6-3-HTTPS 使用成本&6-4-HTTPS 对性能的影响](/video/HTTP/6-3-HTTPS使用成本&6-4-HTTPS对性能的影响.md)
+- [6-5-HTTPS 常见问题](/video/HTTP/6-5-HTTPS常见问题.md)
+- [7-1-HTTP 协议的瓶颈](/video/HTTP/7-1-HTTP协议的瓶颈.md)
+
+---
+
 - [HTTP 升级 2.0.md](/video/HTTP/HTTP升级2.0.md)
 - [Linux 下 Tocat 维护](/video/HTTP/Linux下Tocat维护.md)
 
