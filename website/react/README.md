@@ -386,6 +386,166 @@ Check out the Tutorial to put them into practice and build your first mini-app w
 
 # Describing the UI
 
+## Describing the UI
+
+### Your First Component
+
+### Importing and Exporting Components
+
+### Writing Markup with JSX
+
+### JavaScript in JSX with Curly Braces
+
+### Passing Props to a Component
+
+### Conditional Rendering
+
+### Rendering Lists
+
+### Keeping Components Pure
+
+## Your First Component
+
+### Components: UI building blocks
+
+### Defining a component
+
+#### Step 1: Export the component
+
+#### Step 2: Define the function
+
+#### Step 3: Add markup
+
+### Using a component
+
+#### What the browser sees
+
+#### Nesting and organizing components
+
+### Recap
+
+### Challenges
+
+## Importing and Exporting Components
+
+### The root component file
+
+### Exporting and importing a component
+
+### Exporting and importing multiple components from the same file
+
+### Recap
+
+### Challenges
+
+## Writing Markup with JSX
+
+### JSX: Putting markup into JavaScript
+
+### Converting HTML to JSX
+
+### The Rules of JSX
+
+#### 1. Return a single root element
+
+#### 2. Close all the tags
+
+#### 3. camelCase all most of the things!
+
+#### Pro-tip: Use a JSX Converter
+
+### Recap
+
+### Challenges
+
+## JavaScript in JSX with Curly Braces
+
+### Passing strings with quotes
+
+### Using curly braces: A window into the JavaScript world
+
+#### Where to use curly braces
+
+### Using “double curlies”: CSS and other objects in JSX
+
+### More fun with JavaScript objects and curly braces
+
+### Recap
+
+### Challenges
+
+## Passing Props to a Component
+
+### Familiar props
+
+### Passing props to a component
+
+#### Step 1: Pass props to the child component
+
+#### Step 2: Read props inside the child component
+
+### Specifying a default value for a prop
+
+### Forwarding props with the JSX spread syntax
+
+### Passing JSX as children
+
+### How props change over time
+
+### Recap
+
+### Challenges
+
+## Conditional Rendering
+
+### Conditionally returning JSX
+
+#### Conditionally returning nothing with `null`
+
+### Conditionally including JSX
+
+#### Conditional (ternary) operator (`? :`)
+
+#### Logical AND operator (`&&`)
+
+#### Conditionally assigning JSX to a variable
+
+### Recap
+
+### Challenges
+
+## Rendering Lists
+
+### Rendering data from arrays
+
+### Filtering arrays of items
+
+### Keeping list items in order with `key`
+
+#### Where to get your `key`
+
+#### Rules of keys
+
+#### Why does React need keys?
+
+### Recap
+
+### Challenges
+
+## Keeping Components Pure
+
+### Purity: Components as formulas
+
+### Side Effects: (un)intended consequences
+
+#### Local mutation: Your component’s little secret
+
+### Where you can cause side effects
+
+### Recap
+
+### Challenges
+
 # Adding Interactivity
 
 # Managing State
