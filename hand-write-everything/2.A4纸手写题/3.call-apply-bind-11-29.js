@@ -1,3 +1,4 @@
+// 手写 call
 Function.prototype.call2 = function (context, ...args) {
   // 判断 Symbol 获取this 执行 删除 返回
   if (typeof context === 'undefined' || context === null) {
@@ -10,6 +11,7 @@ Function.prototype.call2 = function (context, ...args) {
   return fn
 }
 
+// 手写 apply
 Function.prototype.apply2 = function (context, args) {
   // 判断 Symbol 获取this 执行 删除 返回
   if (typeof context === 'undefined' || context === null) {
@@ -22,25 +24,44 @@ Function.prototype.apply2 = function (context, args) {
   return fn
 }
 
+// 手写 bind
 Function.prototype.bind2 = function (context) {
   if (typeof this !== 'function') {
     throw new Error(
       'Function.prototype.bind-what is trying to be bound is not callable'
     )
-  }
-  var self = this
-  var args = Array.prototype.slice.call(arguments, 1)
-  var fNOP = function () {}
+  } // 判断 this 不是函数，抛出异常。
+  var self = this // 获取 this 为 self
+  var args = Array.prototype.slice.call(arguments, 1) // ①给一个函数x绑定bind函数，为一个新函数y；即：let y = x.bind(context, args1)；——这里args是获取的参数args1；
+  var fNOP = function () {} // 中转空函数 fNOP
   var fBound = function () {
-    var bindArgs = Array.prototype.slice.call(arguments)
+    var bindArgs = Array.prototype.slice.call(arguments) // ②给一个函数x绑定bind函数，为一个新函数y；执行y时有参数，即：y(args2)；——这里bindArgs是获取的参数args2；
     return self.apply(
       this instanceof fNOP ? this : context,
       args.concat(bindArgs)
-    )
-  }
+    ) // ③所以，手写bind2时，真正的所有参数是 args1和args2，即：args.concat(bindArgs)。
+    // fBound执行就直接执行原函数了，所以使用原函数绑定apply函数，并传递：this和要执行的参数，要执行的参数就是上面的③；
+    // 但是 this要判断一下，是否是 继承于 中转空函数 fNOP：
+    // 如果this（返回函数fBound的this）原型链上有fNOP，说明以构造函数形式执行的，即：let obj = new y(args2)，那么此时this 还使用 this（实例的this），
+  } // fBound 就是给一个函数绑定bind得到的新函数y         
+  // fBound要继承原来被绑定bind函数的原函数x的原型，但是不能 fBound.prototype = this.prototype，因为修改y，可能会修改x，
+  // 所以要使用中转空函数fNOP获取this的原型，然后实例化一下，再赋值给fBound函数的原型。
+  // self.apply：为了改变绑定函数的 this 指向为 返回函数的 this 指向，this 的原型链上有 fNOP（说明执行时用的构造函数方式），这种情况，还用 this；       
   fNOP.prototype = this.prototype
   fBound.prototype = new fNOP()
   return fBound
+}
+
+// 手写 bind 最简版
+Function.prototype.myBind = function (context) {
+  // 判断是否是 undefined 和 null
+  if (typeof context === 'undefined' || context === null) {
+    context = window
+  }
+  var self = this
+  return function (...args) {
+    return self.apply(context, args)
+  }
 }
 
 // 《突击-hand.js》
