@@ -9,9 +9,9 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 ```
 
 - [x] 2.圣杯布局【已记】
-- [x] 3.双飞翼布局
-- [x] 4.手写 clearfix
-- [x] 5.flex 实现三色骰子
+- [x] 3.双飞翼布局【已记】
+- [x] 4.手写 clearfix【已记】
+- [x] 5.flex 实现三色骰子【已记】
 - [x] 6.居中对齐实现方式（水平、垂直）
 - [x] 7.手写深拷贝【已记】
 - [x] 8.手写简易 jQuery，考虑插件和扩展性
