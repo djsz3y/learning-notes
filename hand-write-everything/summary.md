@@ -32,7 +32,7 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 > （参考《学习计划》中 3.2.6 手写系列的链接）
 
 - [ ] 1.手写 hasPrototypeProperty
-- [ ] 2.继承之组合继承、原型继承、寄生组合继承
+- [x] 2.继承之组合继承、原型继承、寄生组合继承【已记】
 - [x] 3.手写 call、手写 apply、手写 bind、手写 bind 最简版【已记】
 - [x] 4.手写模拟 new
 - [x] 5.模拟实现 instanceof
