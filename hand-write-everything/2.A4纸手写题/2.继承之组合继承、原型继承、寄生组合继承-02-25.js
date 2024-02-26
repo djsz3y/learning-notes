@@ -1,6 +1,6 @@
 // 9.1 原型链继承
 function Parent() {
-  this.name = 'xianzao'
+  this.name = 'parent'
 }
 Parent.prototype.getName = function () {
   console.log(this.name)
@@ -11,10 +11,13 @@ Child.prototype = new Parent()
 
 var child1 = new Child()
 console.log(child1.getName())
+// child1.name = 'child1'                x
+// var child2 = new Child()              x
+// console.log(child2.name)              x
 
-// 问题：引用类型属性被所有实例共享，举个例子：
+// 问题：引用类型属性，被所有实例共享。举个例子：
 function Parent() {
-  this.names = ['1', '2', '3']
+  this.names = ['red', 'yellow', 'blue']
 }
 
 function Child() {}
@@ -28,7 +31,7 @@ console.log(child2.names)
 
 // 9.2 借用构造函数
 function Parent() {
-  this.names = ['1', '2', '3']
+  this.names = ['red', 'yellow', 'blue']
 }
 
 function Child() {
@@ -41,7 +44,8 @@ console.log(child1.names)
 var child2 = new Child()
 console.log(child2.names)
 
-// 优点1：避免了引用类型属性被所有实例共享。
+// 优点1：避免了引用类型属性，被所有实例共享。
+
 // 优点2：Child 可以向 Parent 传参。
 
 function Parent(name) {
@@ -85,9 +89,11 @@ console.log(child2.name)
 console.log(child2.age)
 console.log(child2.colors)
 
-// 优点：
-// - 融合了原型链继承和构造函数的优点，
-// - 是JavaScript中最常用的继承模式。
+/**
+ * !优点：
+ * !- 融合了原型链继承和构造函数的优点，
+ * !- 是JavaScript中最常用的继承模式。
+ */
 
 // 9.4 原型继承
 function createObj(o) {
@@ -95,7 +101,8 @@ function createObj(o) {
   F.prototype = o
   return new F()
 }
-const person = {
+
+var person = {
   name: 'person',
   colors: ['red', 'yellow', 'blue']
 }
@@ -103,9 +110,11 @@ const person = {
 var person1 = createObj(person)
 var person2 = createObj(person)
 person1.name = 'person1'
-console.log(person2.name) // person
-person1.colors.push('green')
-console.log(person2.colors) // ['red', 'yellow', 'blue', 'green']
+console.log(person2.name)
+person1.colors.push('test')
+console.log(person2.colors)
+
+// 缺点：和原型链继承一样，引用类型的属性，所有实例都共享。
 
 // 9.5 寄生式继承
 function createObj(o) {
