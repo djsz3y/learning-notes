@@ -12,12 +12,12 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 - [x] 3.双飞翼布局【已记】
 - [x] 4.手写 clearfix【已记】
 - [x] 5.flex 实现三色骰子【已记】
-- [x] 6.居中对齐实现方式（水平、垂直）
+- [x] 6.居中对齐实现方式（水平、垂直）【已记】
 - [x] 7.手写深拷贝【已记】
-- [x] 8.手写简易 jQuery，考虑插件和扩展性
+- [x] 8.手写简易 jQuery，考虑插件和扩展性【已记】
 - [x] 9.手写 call、手写 apply、手写 bind【已记】
-- [x] 10.做一个简单的 cache 工具 createCache.js
-- [x] 11.创建 10 个`<a>`标签，点击弹出序号（2 种）
+- [x] 10.做一个简单的 cache 工具 createCache.js【已记】
+- [x] 11.创建 10 个`<a>`标签，点击弹出序号（2 种）【已记】
 - [x] 12.手写：前端异步场景 4 个示例代码
 - [x] 13.手写：使用 promise 加载一张图片（演示 Promise 串联解决回调地狱）
 - [ ] 14.Promise A+ 规范
