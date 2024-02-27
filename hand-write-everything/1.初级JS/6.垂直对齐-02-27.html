@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>垂直对齐</title>
+    <style type="text/css">
+      .container {
+        margin: 20px 0;
+        border: 1px solid #ccc;
+        width: 100%;
+        height: 200px;
+      }
+
+      .container-1 {
+        text-align: center;
+        line-height: 200px;
+      }
+
+      .container-2 {
+        position: relative;
+      }
+      .container-2 .item {
+        background-color: #ccc;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -100px;
+        margin-top: -50px;
+      }
+      .container-3 {
+        position: relative;
+      }
+      .container-3 .item {
+        background-color: #ccc;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .container-4 {
+        position: relative;
+      }
+      .container-4 .item {
+        background-color: #ccc;
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container container-1">文字</div>
+    <div class="container container-2">
+      <div class="item">this is item</div>
+    </div>
+    <div class="container container-3">
+      <div class="item">this is item</div>
+    </div>
+    <div class="container container-4">
+      <div class="item">this is item</div>
+    </div>
+  </body>
+</html>
