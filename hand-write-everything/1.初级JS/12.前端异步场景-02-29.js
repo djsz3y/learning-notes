@@ -6,6 +6,7 @@
 $.get('./data1.json', function (data1) {
   console.log(data1)
 })
+
 // 1.2 图片加载
 const img = document.createElement('img')
 img.onload = function () {
