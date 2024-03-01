@@ -15,7 +15,7 @@ const pList = document.querySelectorAll('p')
 const p1 = pList[0]
 // 设置/修改属性
 p1.setAttribute('data-name', 'xxx')
-p1.setAttribute('style', 'font-size: 20px;')
+p1.setAttribute('style', 'font-size: 50px;')
 // 获取属性
 p1.getAttribute('data-name')
 p1.getAttribute('style')
@@ -47,13 +47,13 @@ const p2 = document.getElementById('p2')
 body.appendChild(p2)
 
 // 2.获取子列表/父元素
-const child = div1.childNodes
-const parent = div1.parentNode
+const child = divList.childNodes
+const parent = divList.parentNode
 
 // 3.删除子元素
 divList.removeChild(divList.childNodes[0])
 
-// 4.子元素列表过滤子元素节点类型为1的节点
+// 4.子列表过滤子节点类型为1的节点
 const list = Array.prototype.slice.call(divList.childNodes).filter((child) => {
   if (child.nodeType === 1) {
     return true
@@ -72,8 +72,8 @@ for (let i = 0; i < document.getElementsByTagName('p').length; i++) {
   // ...
 }
 // 2.DOM查询做缓存（变量存length，避免频繁dom操作）（一定记住，几率大）
-const pList1 = document.getElementsByTagName('p')
-const length = pList1.length
+const _pList = document.getElementsByTagName('p')
+const length = _pList.length
 for (let i = 0; i < length; i++) {
   // ...
 }
