@@ -12,7 +12,7 @@ Child.prototype = new Parent()
 var child1 = new Child()
 child1.getName()
 
-// 问题：引用类型的属性，所有实例共享；
+// 问题：引用类型的属性，被所有实例共享。
 function Parent() {
   this.names = ['1', '2', '3']
 }
@@ -41,7 +41,7 @@ console.log(child1.names)
 var child2 = new Child()
 console.log(child2.names)
 
-// 优点1：避免了引用类型属性，被所有实例共享的问题。
+// 优点1：避免了引用类型属性，被所有实例共享。
 
 // 优点2：Child 可以向 Parent 传参。
 
