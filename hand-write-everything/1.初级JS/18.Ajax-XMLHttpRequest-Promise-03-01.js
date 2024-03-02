@@ -16,7 +16,7 @@ function ajax(url, successFn) {
     }
   }
   xhr.send(null) // get
-  const postData = { userName: 'zhangsan', password: 'xxx' }
+  const postData = { username: 'zhangsan', password: 'xxx' }
   xhr.send(JSON.stringify(postData)) // post
 }
 
