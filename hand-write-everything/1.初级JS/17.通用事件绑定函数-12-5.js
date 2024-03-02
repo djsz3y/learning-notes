@@ -1,9 +1,9 @@
 // 【知识点：】
 
-// 1. 事件绑定
 function bindEvent(elem, type, fn) {
   elem.addEventListener(type, fn)
 } // ①
+// 1. 事件绑定
 const btn1 = document.getElementById('btn1')
 bindEvent(btn1, 'click', (event) => {
   event.target // 获取触发元素
@@ -14,7 +14,7 @@ bindEvent(btn1, 'click', (event) => {
 // 2. 事件冒泡
 const p1 = document.getElementById('p1')
 bindEvent(p1, 'click', (event) => {
-  event.stopPropagation() // 组织冒泡
+  event.stopPropagation() // 阻止冒泡
   console.log('激活')
 }) // ③
 const body = document.body
