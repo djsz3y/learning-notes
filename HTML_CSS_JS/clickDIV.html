@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>clickMe</title>
+  </head>
+  <body>
+    <div id="div">
+      <p id="p">ClickMe</p>
+    </div>
+    <script>
+      function clickDIV(event) {
+        var target = event.target || event.srcElement
+        alert('clickDIV, target = ' + target.nodeName)
+      }
+
+      function clickP(event) {
+        var target = event.target || event.srcElement
+        alert('clickP.target = ' + target.nodeName)
+      }
+
+      document.getElementById('div').onclick = clickDIV
+      document.getElementById('p').onclick = clickP
+    </script>
+  </body>
+</html>
