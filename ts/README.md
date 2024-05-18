@@ -811,3 +811,19 @@ npx ts-node helloword.ts
 # 参考链接
 
 - [TypeScript 入门教程学习（一）](https://blog.warmplace.cn/post/ts_study#%E5%85%83%E7%BB%84)
+
+
+https://github.com/ruanyf/es6tutorial/blob/9324fdabefc5a0249a7491fe33dd896ea05c004b/docs/number.md?plain=1#L151
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+
+https://www.typescriptlang.org/zh/docs/handbook/typescript-from-scratch.html
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+
+
+## todo
+
+https://blog.warmplace.cn/post/ts_study#%E5%85%83%E7%BB%84
+
+https://www.yuque.com/guojw
