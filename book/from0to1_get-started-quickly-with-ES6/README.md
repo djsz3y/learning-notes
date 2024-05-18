@@ -2,9 +2,9 @@
 
 - [ES6 快速入门 目录](/README.md)
 
-ES6 概述
+- [ES6 概述](./ES6-概述.md)
 
-let 和 const
+- [let-和-const](./let-和-const.md)
 
 字符串的扩展
 
