@@ -7,7 +7,7 @@
 > 1. 无块级作用域
 > 2. 存在变量提升（Hoisting）
 
-【1】无块级作用域
+### 【1】无块级作用域
 
 [1]ES5 作用域：
 
@@ -38,11 +38,45 @@ if (true) {
 console.log(site) // ll
 ```
 
-【2】存在变量提升（Hoisting）【todo】
+### 【2】存在变量提升（Hoisting）
 
-[1]
+[1]ES5 使用 var 声明变量会出现变量提升。
+
+[2]变量提升是什么？
+
+就是 JavaScript 从上到下执行代码之前，如果用 var 声明了变量，JS 引擎会做一定的预处理。
+
+[3]工作原理：
+
+- 进入一个 JavaScript 环境，JS 引擎先扫描所有代码，先把 var 声明的变量集合在一起，形成了一个词法环境。（Lexical Environment, LE）
+
+[4]举例：
+
+```js
+console.log(a)
+var a = 2020
+// 控制台输出：undefined
+```
+
+等价于：
+
+```js
+var a
+console.log(a)
+a = 2020
+// 控制台输出：undefined
+```
+
+[5]分析：
+
+- 如果 JS 立刻从上到下执行这段代码，那么 `console.log(a)` 就会报错，因为运行到这里，JavaScript 并不知道 a 是什么。
+- 实际情况是 JavaScript 先扫描整个代码，然后把 `var a;` 提升到顶部，即先声明 a ，此时 a 的值就是 `undefined`。
+
+[6]变量提升是 ES5 的内容，必考，一定要了解。
 
 ## let
+
+
 
 ## const
 
