@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2024-05-17T03:24:30.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="sgSq6eeMH2Rc_fKccLHN" version="24.4.0" type="github">
+  <diagram name="ChatGPT" id="E7P5Z0JC1jahwF1geJrg">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CaitLofJmkTbwQZzspQF-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="10" width="280" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CaitLofJmkTbwQZzspQF-18" source="CaitLofJmkTbwQZzspQF-2" target="CaitLofJmkTbwQZzspQF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-2" value="准备问题&lt;div&gt;（明确的目标&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（具体的范围）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（规定的输出）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CaitLofJmkTbwQZzspQF-18" source="CaitLofJmkTbwQZzspQF-3" target="CaitLofJmkTbwQZzspQF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-3" value="提出问题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry x="60" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CaitLofJmkTbwQZzspQF-18" source="CaitLofJmkTbwQZzspQF-5" target="CaitLofJmkTbwQZzspQF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-5" value="接收答案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry x="60" y="230" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CaitLofJmkTbwQZzspQF-18" source="CaitLofJmkTbwQZzspQF-9" target="CaitLofJmkTbwQZzspQF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-15" value="不满意" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CaitLofJmkTbwQZzspQF-12">
+          <mxGeometry x="-0.1333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CaitLofJmkTbwQZzspQF-18" source="CaitLofJmkTbwQZzspQF-9" target="CaitLofJmkTbwQZzspQF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-14" value="满意" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CaitLofJmkTbwQZzspQF-13">
+          <mxGeometry x="-0.1476" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-9" value="满意？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry x="60" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry x="200" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CaitLofJmkTbwQZzspQF-18" source="CaitLofJmkTbwQZzspQF-11" target="CaitLofJmkTbwQZzspQF-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="390" />
+              <mxPoint y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-11" value="有效的反馈&lt;div&gt;（修改反馈）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry x="55" y="370" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CaitLofJmkTbwQZzspQF-17" value="与 ChatGPT 互动的最佳过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="CaitLofJmkTbwQZzspQF-18">
+          <mxGeometry width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

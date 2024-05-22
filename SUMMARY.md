@@ -77,6 +77,12 @@
 
 《Visual Studio Code 权威指南》读书笔记
 
+### ChatGPT 驱动软件开发：AI 在软件研发全流程中的革新与实践
+
+- [《ChatGPT 驱动软件开发：AI 在软件研发全流程中的革新与实践》读书笔记](/book/ChatGPT/README.md)
+
+![《ChatGPT 驱动软件开发：AI 在软件研发全流程中的革新与实践》](/imgs/chatgpt.jpg)
+
 ## 视频
 
 - [爪哇学习笔记](https://github.com/djsz3y/zhaowa-study-notes)
