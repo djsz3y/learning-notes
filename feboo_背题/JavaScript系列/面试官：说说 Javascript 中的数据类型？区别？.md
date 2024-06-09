@@ -1,6 +1,4 @@
-面试官：说说 JavaScript 中的数据类型？区别？#51
-
-> https://github.com/febobo/web-interview/issues/51
+# 面试官：说说 JavaScript 中的数据类型？区别？
 
 # 一、概述
 
@@ -68,3 +66,7 @@ Number([5]) // 5
 # 四、总结：以后要补充的 TODO
 
 - [9.编译器：](https://github.com/djsz3y/zhaowa-study-notes/blob/master/formal_lessons/js_9_compiler.md)
+
+# 参考文献
+
+- [原文](https://github.com/febobo/web-interview/issues/51)
