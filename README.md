@@ -2,9 +2,9 @@
 
 - [学习笔记目录](/README.md)
 
-## feboo\_背题
+## febobo-web-interview-recite
 
-[feboo\_背题](/feboo_背题/README.md)
+[febobo-web-interview-recite](/febobo-web-interview-recite/README.md)
 
 ## 手写代码
 
