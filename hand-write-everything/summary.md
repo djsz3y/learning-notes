@@ -63,3 +63,68 @@ document.getElementById('div1').offsetWidth // content+padding+border，不包�
 ## 3.vue-hand
 
 - vue 响应式原理（observe.js）
+
+## 4.http
+
+## 5.webpack
+
+## 6.TypeScript
+
+### 基础知识
+
+[1]TypeScript 的基本概念：
+
+- [什么是 TypeScript？它与 JavaScript 有什么区别？]()
+- [你为什么选择使用 TypeScript，而不是仅仅使用 JavaScript？]()
+
+[2]类型系统：⭐
+
+- [x] [TypeScript 中有哪些基本类型？]() 【febobo】
+- [x] [解释一下 any、unknown、never 和 void 的区别。]() ⭐ 【双越】
+- [x] [你如何定义一个接口？如何使用它们？]() 【febobo】
+
+[3]高级类型：⭐
+
+- [什么是交叉类型（Intersection Types）和联合类型（Union Types）？请举例说明。]() 【双越】
+- [解释一下 TypeScript 中的类型别名（Type Aliases）和接口（Interfaces）的区别和使用场景。]() ⭐ 【双越】
+
+### 实践应用
+
+[4]泛型（Generics）：⭐
+
+- [解释一下泛型的概念，并展示一个使用泛型的示例。]()
+- [泛型在实际开发中有哪些应用场景？]()
+
+[5]模块和命名空间：
+
+- [TypeScript 中模块（Modules）和命名空间（Namespaces）的区别是什么？]()
+- [如何在 TypeScript 中导入和导出模块？]()
+
+[6]装饰器（Decorators）：
+
+- [你对 TypeScript 中的装饰器有了解吗？它们是什么，有什么作用？]()
+- [请举例说明如何使用类装饰器、方法装饰器或属性装饰器。]()
+
+### 类型推断与检查
+
+[7]类型推断（Type Inference）：⭐
+
+- [TypeScript 是如何进行类型推断的？请举例说明。]()
+- [解释一下上下文类型（Contextual Typing）。]()
+
+[8]类型检查和编译器配置：
+
+- [你如何在项目中配置 TypeScript 编译器（tsconfig.json）？]()
+- [strict 模式下的 TypeScript 有哪些不同之处？]()
+
+### 实际项目经验
+
+[9]项目中的 TypeScript：⭐
+
+- [你在实际项目中是如何使用 TypeScript 的？能举一个具体的例子吗？]()
+- [在项目中使用 TypeScript 遇到过哪些问题？你是如何解决的？]()
+
+[10]TypeScript 与其他工具的集成：
+
+- [你如何在一个 React 或 Vue 项目中使用 TypeScript？]()
+- [TypeScript 如何与 Webpack、Babel 等工具集成？]()
