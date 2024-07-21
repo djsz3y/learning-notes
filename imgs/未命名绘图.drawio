@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T06:13:24.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Ux7fq8mc1LkIWxgzySu-" version="24.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-21T06:29:03.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="yXJf0dmCnUfvhG8DMLO-" version="24.7.2" type="github" pages="2">
   <diagram name="组件渲染更新过程" id="HoHFHfUVTN5FIWPAiO9L">
     <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,11 +201,98 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="8CYfBBX3I7ZpzTezOdAZ" name="Electron">
-    <mxGraphModel dx="1434" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="8CYfBBX3I7ZpzTezOdAZ" name="Electron-music-player">
+    <mxGraphModel dx="1195" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="80" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-17" value="" style="group" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-19">
+          <mxGeometry y="80" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-1" value="index.js 主窗口渲染进程" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-2" value="处理播放逻辑" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry x="340" y="5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-3" value="main.js 主进程" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry y="120" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.133;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.136;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="39.839999999999975" as="sourcePoint" />
+            <mxPoint x="61.319999999999936" y="119.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-5" value="点击添加按钮" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-4">
+          <mxGeometry x="0.0248" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.865;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.866;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380.0000000000001" y="119.9600000000001" as="sourcePoint" />
+            <mxPoint x="380.44000000000017" y="40.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-7" value="持久化数据 通知主窗口渲染" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-6">
+          <mxGeometry x="0.0248" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-8" value="add.js 添加窗口渲染进程" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry y="240" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.133;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.134;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <mxPoint x="60.440000000000055" y="237.84000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-10" value="创建 添加音乐窗口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-9">
+          <mxGeometry x="-0.126" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.133;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.133;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="160" as="sourcePoint" />
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-12" value="调用原生文件 API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-11">
+          <mxGeometry x="-0.126" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.82;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="380.79999999999995" y="160.19999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-14" value="点击导入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-13">
+          <mxGeometry x="-0.126" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.318;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.316;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="fa_pHsbLdi568NsXcNsZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160.88000000000005" y="237.44" as="sourcePoint" />
+            <mxPoint x="160.00000000000017" y="159.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-16" value="点击 选择音乐按钮" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fa_pHsbLdi568NsXcNsZ-15">
+          <mxGeometry x="-0.126" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fa_pHsbLdi568NsXcNsZ-18" value="整个添加音乐的流程是怎样的？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="fa_pHsbLdi568NsXcNsZ-19">
+          <mxGeometry width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
