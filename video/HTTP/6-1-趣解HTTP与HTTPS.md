@@ -128,3 +128,13 @@ XX*&$$%$###$
 那么我们现在呢，先是对 HTTPS 原理有了一定的认识。
 
 下一节用更官方，更概念原理的方式，让大家认识一下真正的 HTTPS。
+
+## 总结-HTTPS 原理
+
+<img src="./imgs/6-1/总结-HTTPS原理-1.jpg" />
+
+<img src="./imgs/6-1/总结-HTTPS原理-2.jpg" />
+
+<img src="./imgs/6-1/总结-HTTPS原理-3.jpg" />
+
+<img src="./imgs/6-1/总结-HTTPS原理-4.jpg" />
